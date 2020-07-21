@@ -1,27 +1,20 @@
 const db = require("../db");
-const Post = require("../models/post");
+const Post = require("../models/venue");
 
 db.on("error", console.error.bind(console, "MongoDB connection error:"));
 
 const main = async () => {
-  const post = [
+  const venue = [
     {
-      name: "John Doe",
-      imgURL:
-        "https://images.unsplash.com/photo-1573521193826-58c7dc2e13e3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
-      content: "SAMPLE !@#IFJISW OADMAIOSMDOASMDK",
-      title: "Unknown 76",
-    },
-    {
-      name: "Julio Pizza Shop",
-      imgURL:
-        "https://images.unsplash.com/photo-1573521193836-58c7dc2e13e3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
-      content: "SAMPLE !@#IFJISW OADMAIOSMDOASMDK",
-      title: "Pizza Uno",
+      name: "City Field",
+      Address: "123-01 Roosevelt Ave",
+      city: "Flushing",
+      state: "New York",
+      zip: 11368
     },
   ];
 
-  await Post.insertMany(post);
+  await Post.insertMany(venue);
   console.log("Post Created!");
 };
 
