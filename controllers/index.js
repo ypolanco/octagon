@@ -6,6 +6,10 @@ const db = require("../db");
 
 db.on("error", console.error.bind(console, "MongoDB connection error:"));
 
+///////////////
+// login
+///////////////
+
 const SALT_ROUNDS = 11;
 const TOKEN_KEY = "welpheregoesnothing!";
 
@@ -76,6 +80,10 @@ const verifyUser = async (req, res) => {
   }
 };
 
+//////////////////
+//Pull User Data//
+//////////////////
+
 const getPosts = async (req, res) => {
   try {
     const posts = await Post.find();
@@ -90,8 +98,7 @@ const getPost = async (req, res) => {
     const { id } = req.params;
     const post = await Post.findById(id);
     if (post) {
-      return res.json(post);
-    }
+      return res.json(post);    }
     res.status(404).json({ message: "Post not found!" });
   } catch (error) {
     res.status(500).json({ error: error.message });

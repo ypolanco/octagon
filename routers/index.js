@@ -8,8 +8,6 @@ router.get('/', (req, res) => res.send('This is the api root!'))
 
 router.post('/sign-up', controllers.signUp)
 router.post('/sign-in', controllers.signIn)
-router.get('/verify', controllers.verifyUser)
-
 router.get('/posts', controllers.getPosts)
 router.get('/post/:id', controllers.getPost)
 router.post('/post', restrict, controllers.createPost)

@@ -1,5 +1,5 @@
 const db = require("../db");
-const Post = require("../models/venue");
+const Venue = require("../models/venue");
 
 db.on("error", console.error.bind(console, "MongoDB connection error:"));
 
@@ -10,12 +10,12 @@ const main = async () => {
       Address: "123-01 Roosevelt Ave",
       city: "Flushing",
       state: "New York",
-      zip: 11368
+      zip: 11368,
     },
   ];
 
-  await Post.insertMany(venue);
-  console.log("Post Created!");
+  await Venue.insertMany(venue);
+  console.log("Venue Created!");
 };
 
 const run = async () => {
