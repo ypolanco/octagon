@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 export default function Banner() {
   return (
     <Link
-      to="https://www.cdc.gov/coronavirus/2019-ncov/index.html"
+      to=""
       target="_blank"
     >
       <div className="info-container">
