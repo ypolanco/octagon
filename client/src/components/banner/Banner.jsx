@@ -11,7 +11,7 @@ export default function Banner() {
     >
       <div className="info-container">
         <img src={info} alt="info button" className="info-button" />
-        <span class="blinking">
+        <span className="blinking">
           Please keep a safe 6 feet distance from all other attendees
         </span>
       </div>

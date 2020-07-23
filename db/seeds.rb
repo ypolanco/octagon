@@ -36,5 +36,17 @@ p "#{Venue.count} venue(s) created"
   description: 'Come enjoy the Mets game!',
   venue: @venue1
 )
+@event1 = Event.create!(
+  name: 'Mets Game',
+  date: '2021-1-30',
+  time: '18:00',
+  gate: '7D',
+  section: 'A',
+  row: '1',
+  seat: '1',
+  ticket_number: 'D6723D',
+  description: 'Come enjoy the Mets game!',
+  venue: @venue1
+)
 
 p "#{Event.count} event(s) created"

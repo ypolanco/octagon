@@ -5,6 +5,7 @@ import metlife from "../images/metlife.png";
 import security from "../images/security.png";
 import thumb from "../images/thumb.png"
 import Banner from "../components/banner/Banner"
+import {Link} from 'react-router-dom'
 import "./Steps.css"
 
 function Steps() {
@@ -30,6 +31,11 @@ function Steps() {
         <p>
           <span className="underline">need help with a scanner?</span>
         </p>
+        <Link to="/qr">
+        <p>
+          <span className="underline">QR Code Here</span>
+          </p>
+          </Link>
       </div>
       <div className="step-three">
         <h2>Step 3</h2>
