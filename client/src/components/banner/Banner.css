@@ -1,0 +1,38 @@
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+
+  .info-container{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color: #FFF7DB ;
+    width: 100%; 
+    height:55px;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  
+  .blinking{
+    animation:blinkingText 2.8s infinite;
+    width: 100%;
+  }
+  
+  .info-button{
+    height: 20px; 
+    margin:10px;
+    background-color: white;
+    border-radius: 50%;
+  }
+  
+  @keyframes blinkingText{
+    0%{     color: rgb(0, 0, 0);    }
+    49%{    color: rgb(0, 0, 0); }
+    60%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: rgb(0, 0, 0);    }
+  }
+  
+}
+

@@ -1551,3 +1551,3263 @@ FOREIGN KEY ("venue_id")
   [1m[36mEvent Create (1.0ms)[0m  [1m[32mINSERT INTO "events" ("name", "date", "time", "gate", "section", "row", "seat", "ticket_number", "description", "created_at", "updated_at", "venue_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["name", "Mets Game"], ["date", "2021-01-01"], ["time", "13:00:00"], ["gate", "2A"], ["section", "B"], ["row", "3"], ["seat", "24"], ["ticket_number", "D8936D"], ["description", "Come enjoy the Mets game!"], ["created_at", "2020-07-23 00:35:23.055172"], ["updated_at", "2020-07-23 00:35:23.055172"], ["venue_id", 1]]
   [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
   [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "events"[0m
+Started GET "/events" for ::1 at 2020-07-23 16:28:43 -0400
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (28.5ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 52ms (Views: 12.7ms | ActiveRecord: 33.5ms | Allocations: 12192)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:31:00 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.4ms | Allocations: 1143)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:31:18 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (1.1ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 1.1ms | Allocations: 1142)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:31:21 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.3ms | Allocations: 1142)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:31:23 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.5ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:31:31 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.2ms | Allocations: 1142)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:31:44 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.3ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:32:06 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.4ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:32:14 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (2.0ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 2.0ms | ActiveRecord: 2.0ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:32:35 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (4.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 1.4ms | ActiveRecord: 4.2ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:32:41 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.3ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:32:47 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.2ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:33:07 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.3ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:33:24 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.4ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:33:32 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.4ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:34:07 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.3ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:34:25 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.4ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:34:35 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.2ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:34:38 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.3ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:34:41 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.2ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:35:20 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.2ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:35:38 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.3ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:35:50 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.2ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:36:05 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.5ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:36:06 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.2ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:36:12 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.3ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:36:21 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.3ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:36:29 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.6ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.6ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:36:37 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.3ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:36:51 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.9ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.9ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:36:54 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (1.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.6ms | ActiveRecord: 1.2ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:36:59 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (3.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 1.6ms | ActiveRecord: 3.3ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:37:14 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (3.7ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 2.4ms | ActiveRecord: 3.7ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:37:21 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.2ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:37:25 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.2ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:37:28 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.2ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:37:30 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.3ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:37:32 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.2ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:37:44 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.3ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:38:05 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.2ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:38:38 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.5ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:38:49 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.2ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:40:35 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.3ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:40:42 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (1.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.4ms | ActiveRecord: 1.2ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:40:44 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.4ms | Allocations: 1124)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:40:51 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.2ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:41:02 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.3ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:41:16 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.3ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:41:30 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.6ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.6ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:41:32 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.3ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:41:43 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.3ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:41:50 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.2ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:42:30 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (1.5ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 1.5ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:42:32 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.2ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:42:34 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.5ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:42:41 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (7.8ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 9ms (Views: 1.1ms | ActiveRecord: 7.8ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:42:45 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.3ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:44:23 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.4ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:44:27 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.8ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.8ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:44:44 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.2ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:44:55 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.3ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:45:01 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.3ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:45:03 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (1.7ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.1ms | ActiveRecord: 1.7ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:45:06 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.5ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:45:14 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.4ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:45:20 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (10.5ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 12ms (Views: 1.2ms | ActiveRecord: 10.5ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:45:22 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (3.9ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 1.7ms | ActiveRecord: 3.9ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:46:01 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.5ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:48:19 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (13.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 15ms (Views: 1.3ms | ActiveRecord: 13.3ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:48:29 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.3ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:49:22 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.3ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:49:59 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.3ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:50:33 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.2ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:50:38 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.3ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:50:51 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.2ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:50:54 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.6ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.6ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:50:56 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.4ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:51:00 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.3ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:51:02 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.2ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:51:05 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.8ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.8ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:51:30 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.5ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:51:39 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.3ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:51:40 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.3ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:51:41 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.6ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.6ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:52:39 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (1.0ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 1.0ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:52:56 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.7ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.7ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:53:04 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (1.1ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 1.1ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:53:15 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.3ms | Allocations: 1124)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:55:38 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (12.6ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 14ms (Views: 1.2ms | ActiveRecord: 12.6ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:55:44 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.2ms | Allocations: 1123)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:56:27 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.2ms | Allocations: 1123)
+
+
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (23.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (27.1ms)[0m  [1m[35mDROP DATABASE IF EXISTS "octagon_ruby_development"[0m
+  [1m[35m (48.4ms)[0m  [1m[35mDROP DATABASE IF EXISTS "octagon_ruby_test"[0m
+  [1m[35m (192.7ms)[0m  [1m[35mCREATE DATABASE "octagon_ruby_development" ENCODING = 'unicode'[0m
+  [1m[35m (148.2ms)[0m  [1m[35mCREATE DATABASE "octagon_ruby_test" ENCODING = 'unicode'[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE IF EXISTS "events" CASCADE[0m
+  [1m[35m (6.0ms)[0m  [1m[35mCREATE TABLE "events" ("id" bigserial primary key, "name" character varying, "date" date, "time" time, "gate" character varying, "section" character varying, "row" character varying, "seat" character varying, "ticket_number" character varying, "description" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL, "venue_id" bigint NOT NULL)[0m
+  [1m[35m (0.7ms)[0m  [1m[35mCREATE  INDEX  "index_events_on_venue_id" ON "events"  ("venue_id")[0m
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "users" CASCADE[0m
+  [1m[35m (2.7ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "username" character varying, "email" character varying, "password_digest" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (0.4ms)[0m  [1m[35mDROP TABLE IF EXISTS "venues" CASCADE[0m
+  [1m[35m (2.4ms)[0m  [1m[35mCREATE TABLE "venues" ("id" bigserial primary key, "name" character varying, "address" character varying, "city" character varying, "state" character varying, "zip_code" integer, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (1.8ms)[0m  [1m[35mALTER TABLE "events" ADD CONSTRAINT "fk_rails_f476266cf4"
+FOREIGN KEY ("venue_id")
+  REFERENCES "venues" ("id")
+[0m
+  [1m[35m (3.2ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (5.7ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20200722220150)[0m
+  [1m[35m (6.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20200722194226),
+(20200722194531),
+(20200722200911),
+(20200722203507),
+(20200722215352);
+
+[0m
+  [1m[35m (21.4ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (2.8ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-07-23 20:57:04.170508"], ["updated_at", "2020-07-23 20:57:04.170508"]]
+  [1m[35m (4.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[35m (3.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (3.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "schema_sha1"], ["value", "9a37985ff61ddc7288fa3ca224e728f8f8cb30f6"], ["created_at", "2020-07-23 20:57:04.184995"], ["updated_at", "2020-07-23 20:57:04.184995"]]
+  [1m[35m (5.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "events" CASCADE[0m
+  [1m[35m (5.3ms)[0m  [1m[35mCREATE TABLE "events" ("id" bigserial primary key, "name" character varying, "date" date, "time" time, "gate" character varying, "section" character varying, "row" character varying, "seat" character varying, "ticket_number" character varying, "description" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL, "venue_id" bigint NOT NULL)[0m
+  [1m[35m (12.0ms)[0m  [1m[35mCREATE  INDEX  "index_events_on_venue_id" ON "events"  ("venue_id")[0m
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "users" CASCADE[0m
+  [1m[35m (18.8ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "username" character varying, "email" character varying, "password_digest" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (4.9ms)[0m  [1m[35mDROP TABLE IF EXISTS "venues" CASCADE[0m
+  [1m[35m (4.9ms)[0m  [1m[35mCREATE TABLE "venues" ("id" bigserial primary key, "name" character varying, "address" character varying, "city" character varying, "state" character varying, "zip_code" integer, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (2.4ms)[0m  [1m[35mALTER TABLE "events" ADD CONSTRAINT "fk_rails_f476266cf4"
+FOREIGN KEY ("venue_id")
+  REFERENCES "venues" ("id")
+[0m
+  [1m[35m (1.9ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20200722220150)[0m
+  [1m[35m (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20200722194226),
+(20200722194531),
+(20200722200911),
+(20200722203507),
+(20200722215352);
+
+[0m
+  [1m[35m (3.5ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-07-23 20:57:04.310407"], ["updated_at", "2020-07-23 20:57:04.310407"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Update (0.2ms)[0m  [1m[33mUPDATE "ar_internal_metadata" SET "value" = $1, "updated_at" = $2 WHERE "ar_internal_metadata"."key" = $3[0m  [["value", "test"], ["updated_at", "2020-07-23 20:57:04.315441"], ["key", "environment"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "schema_sha1"], ["value", "9a37985ff61ddc7288fa3ca224e728f8f8cb30f6"], ["created_at", "2020-07-23 20:57:04.320035"], ["updated_at", "2020-07-23 20:57:04.320035"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  [1m[36mVenue Load (0.6ms)[0m  [1m[34mSELECT "venues".* FROM "venues"[0m
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "jp"], ["LIMIT", 1]]
+  [1m[36mUser Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "yampi@email.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "jp"], ["email", "yampi@email.com"], ["password_digest", "$2a$12$Zd3akOkq/0QUKLV5ab.ZU.jqy6xTSB3LylmfCExUv7oqbDjA3Gtya"], ["created_at", "2020-07-23 20:57:04.608964"], ["updated_at", "2020-07-23 20:57:04.608964"]]
+  [1m[35m (5.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVenue Create (1.1ms)[0m  [1m[32mINSERT INTO "venues" ("name", "address", "city", "state", "zip_code", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Citi Field"], ["address", "123-01 Roosevelt Ave."], ["city", "Flushing"], ["state", "NY"], ["zip_code", 11368], ["created_at", "2020-07-23 20:57:04.641847"], ["updated_at", "2020-07-23 20:57:04.641847"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "venues"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mEvent Create (0.7ms)[0m  [1m[32mINSERT INTO "events" ("name", "date", "time", "gate", "section", "row", "seat", "ticket_number", "description", "created_at", "updated_at", "venue_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["name", "Mets Game"], ["date", "2021-01-01"], ["time", "13:00:00"], ["gate", "2A"], ["section", "B"], ["row", "3"], ["seat", "24"], ["ticket_number", "D8936D"], ["description", "Come enjoy the Mets game!"], ["created_at", "2020-07-23 20:57:04.666247"], ["updated_at", "2020-07-23 20:57:04.666247"], ["venue_id", 1]]
+  [1m[35m (6.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mEvent Create (0.3ms)[0m  [1m[32mINSERT INTO "events" ("name", "date", "time", "gate", "section", "row", "seat", "ticket_number", "description", "created_at", "updated_at", "venue_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["name", "Mets Game"], ["date", "2021-01-30"], ["time", "18:00:00"], ["gate", "7D"], ["section", "A"], ["row", "1"], ["seat", "1"], ["ticket_number", "D6723D"], ["description", "Come enjoy the Mets game!"], ["created_at", "2020-07-23 20:57:04.676947"], ["updated_at", "2020-07-23 20:57:04.676947"], ["venue_id", 1]]
+  [1m[35m (5.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "events"[0m
+Started GET "/events" for ::1 at 2020-07-23 16:57:21 -0400
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.8ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 24ms (Views: 10.2ms | ActiveRecord: 4.2ms | Allocations: 12454)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:57:22 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.2ms | Allocations: 1400)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:57:27 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.3ms | Allocations: 1400)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:57:30 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (9.5ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 12ms (Views: 1.9ms | ActiveRecord: 9.5ms | Allocations: 1400)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:57:32 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.4ms | Allocations: 1400)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:57:36 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.2ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:59:23 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.4ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:59:25 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.3ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:59:27 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.5ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:59:30 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.2ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:59:46 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.6ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.6ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 16:59:56 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.3ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:00:22 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.6ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.6ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:00:26 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.2ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:00:42 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.2ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:06:14 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.3ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:06:16 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.3ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:06:39 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (3.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 1.9ms | ActiveRecord: 3.4ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:07:57 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.6ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.6ms | Allocations: 1381)
+
+
+Started GET "/events/1" for ::1 at 2020-07-23 17:08:02 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 200 OK in 8ms (Views: 0.4ms | ActiveRecord: 0.5ms | Allocations: 2497)
+
+
+Started GET "/events/1" for ::1 at 2020-07-23 17:08:07 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.3ms | Allocations: 928)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:10:37 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (6.7ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 8ms (Views: 1.5ms | ActiveRecord: 6.7ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:10:46 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.2ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:10:58 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.2ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:11:02 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.5ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:11:29 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.9ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 0.9ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:11:36 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.5ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:12:01 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.2ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:12:06 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.3ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:12:22 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.3ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:12:23 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (10.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 13ms (Views: 2.2ms | ActiveRecord: 10.2ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:12:25 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.2ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:12:27 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.4ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:12:28 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.8ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.6ms | ActiveRecord: 0.8ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:12:35 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.8ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 0.8ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:12:58 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 15ms (Views: 14.5ms | ActiveRecord: 0.3ms | Allocations: 1384)
+
+
+Started GET "/events/1" for ::1 at 2020-07-23 17:12:59 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.3ms | Allocations: 929)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:13:28 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (1.9ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 1.4ms | ActiveRecord: 1.9ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:14:09 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.4ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:14:46 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.7ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.7ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:14:59 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.6ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.6ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:15:03 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.3ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:15:05 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.2ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:15:07 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.2ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:15:12 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.3ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:16:34 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (1.8ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.3ms | ActiveRecord: 1.8ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:16:41 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.2ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:16:42 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.2ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:16:43 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.2ms | Allocations: 1381)
+
+
+Started GET "/events/1" for ::1 at 2020-07-23 17:16:53 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.2ms | Allocations: 928)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:18:12 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.4ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:18:12 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.3ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:18:45 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.3ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:18:45 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (1.1ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 1.1ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:18:49 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.3ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:18:50 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.4ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:18:53 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (1.6ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 1.6ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:18:54 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.3ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:19:01 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.4ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:19:02 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (1.8ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 1.4ms | ActiveRecord: 1.8ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:19:19 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (1.1ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.4ms | ActiveRecord: 1.1ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:19:19 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.5ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:19:31 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (5.6ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 8ms (Views: 1.8ms | ActiveRecord: 5.6ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:19:32 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.7ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.7ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:19:44 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (10.1ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 12ms (Views: 1.5ms | ActiveRecord: 10.1ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:19:44 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (4.6ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 1.6ms | ActiveRecord: 4.6ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:19:58 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.3ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:19:58 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (1.5ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.3ms | ActiveRecord: 1.5ms | Allocations: 1381)
+
+
+Started GET "/events/undefined" for ::1 at 2020-07-23 17:20:05 -0400
+Started GET "/events" for ::1 at 2020-07-23 17:20:05 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"undefined"}
+  [1m[36mEvent Load (6.8ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 404 Not Found in 8ms (ActiveRecord: 6.8ms | Allocations: 676)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=undefined):
+  
+app/controllers/events_controller.rb:44:in `set_event'
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.7ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.7ms | Allocations: 4465)
+
+
+Started GET "/events/undefined" for ::1 at 2020-07-23 17:20:05 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"undefined"}
+Started GET "/events" for ::1 at 2020-07-23 17:20:05 -0400
+  [1m[36mEvent Load (0.6ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 404 Not Found in 2ms (ActiveRecord: 0.9ms | Allocations: 1175)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=undefined):
+  
+app/controllers/events_controller.rb:44:in `set_event'
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.6ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.6ms | ActiveRecord: 0.6ms | Allocations: 3811)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:20:14 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (6.5ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 9ms (Views: 1.8ms | ActiveRecord: 6.5ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:20:14 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.2ms | Allocations: 1381)
+
+
+Started GET "/events/undefined" for ::1 at 2020-07-23 17:20:17 -0400
+Started GET "/events" for ::1 at 2020-07-23 17:20:17 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"undefined"}
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 404 Not Found in 2ms (ActiveRecord: 0.4ms | Allocations: 671)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=undefined):
+  
+app/controllers/events_controller.rb:44:in `set_event'
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.6ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.6ms | Allocations: 2768)
+
+
+Started GET "/events/undefined" for ::1 at 2020-07-23 17:20:17 -0400
+Started GET "/events" for ::1 at 2020-07-23 17:20:17 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"undefined"}
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 404 Not Found in 1ms (ActiveRecord: 0.2ms | Allocations: 694)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=undefined):
+  
+app/controllers/events_controller.rb:44:in `set_event'
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.2ms | Allocations: 2107)
+
+
+Started GET "/events/undefined" for ::1 at 2020-07-23 17:21:00 -0400
+Started GET "/events" for ::1 at 2020-07-23 17:21:00 -0400
+Processing by EventsController#show as HTML
+Processing by EventsController#index as HTML
+  Parameters: {"id"=>"undefined"}
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.4ms | Allocations: 1930)
+
+
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 404 Not Found in 3ms (ActiveRecord: 0.2ms | Allocations: 2066)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=undefined):
+  
+app/controllers/events_controller.rb:44:in `set_event'
+Started GET "/events/undefined" for ::1 at 2020-07-23 17:21:00 -0400
+Started GET "/events" for ::1 at 2020-07-23 17:21:00 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"undefined"}
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Processing by EventsController#index as HTML
+Completed 404 Not Found in 2ms (ActiveRecord: 0.2ms | Allocations: 1126)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=undefined):
+  
+app/controllers/events_controller.rb:44:in `set_event'
+  [1m[36mEvent Load (64.0ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 66ms (Views: 1.9ms | ActiveRecord: 64.0ms | Allocations: 92420)
+
+
+Started GET "/events/undefined" for ::1 at 2020-07-23 17:21:03 -0400
+Started GET "/events" for ::1 at 2020-07-23 17:21:03 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"undefined"}
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (1.0ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 404 Not Found in 3ms (ActiveRecord: 1.0ms | Allocations: 1242)
+
+
+  [1m[36mEvent Load (0.9ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=undefined):
+  
+app/controllers/events_controller.rb:44:in `set_event'
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 68ms (Views: 67.2ms | ActiveRecord: 0.9ms | Allocations: 92809)
+
+
+Started GET "/events/undefined" for ::1 at 2020-07-23 17:21:04 -0400
+Started GET "/events" for ::1 at 2020-07-23 17:21:04 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (3.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 1.5ms | ActiveRecord: 3.2ms | Allocations: 1381)
+
+
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"undefined"}
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 404 Not Found in 1ms (ActiveRecord: 0.2ms | Allocations: 670)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=undefined):
+  
+app/controllers/events_controller.rb:44:in `set_event'
+Started GET "/events/undefined" for ::1 at 2020-07-23 17:23:15 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"undefined"}
+Started GET "/events" for ::1 at 2020-07-23 17:23:15 -0400
+  [1m[36mEvent Load (1.2ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 404 Not Found in 2ms (ActiveRecord: 1.2ms | Allocations: 1009)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=undefined):
+  
+app/controllers/events_controller.rb:44:in `set_event'
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.3ms | Allocations: 2192)
+
+
+Started GET "/events/undefined" for ::1 at 2020-07-23 17:23:15 -0400
+Started GET "/events" for ::1 at 2020-07-23 17:23:15 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"undefined"}
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 404 Not Found in 2ms (ActiveRecord: 0.3ms | Allocations: 1123)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=undefined):
+  
+app/controllers/events_controller.rb:44:in `set_event'
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (59.0ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 61ms (Views: 1.5ms | ActiveRecord: 59.0ms | Allocations: 92222)
+
+
+Started GET "/events/undefined" for ::1 at 2020-07-23 17:23:44 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"undefined"}
+Started GET "/events" for ::1 at 2020-07-23 17:23:44 -0400
+  [1m[36mEvent Load (1.4ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Processing by EventsController#index as HTML
+Completed 404 Not Found in 3ms (ActiveRecord: 1.4ms | Allocations: 1449)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=undefined):
+  
+app/controllers/events_controller.rb:44:in `set_event'
+  [1m[36mEvent Load (93.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 95ms (Views: 1.3ms | ActiveRecord: 93.2ms | Allocations: 92203)
+
+
+Started GET "/events/undefined" for ::1 at 2020-07-23 17:23:44 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"undefined"}
+Started GET "/events" for ::1 at 2020-07-23 17:23:44 -0400
+  [1m[36mEvent Load (0.7ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 404 Not Found in 2ms (ActiveRecord: 0.7ms | Allocations: 1011)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=undefined):
+  
+app/controllers/events_controller.rb:44:in `set_event'
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.5ms | Allocations: 2725)
+
+
+Started GET "/events/undefined" for ::1 at 2020-07-23 17:23:49 -0400
+Started GET "/events" for ::1 at 2020-07-23 17:23:49 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"undefined"}
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.7ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 404 Not Found in 2ms (ActiveRecord: 0.7ms | Allocations: 1242)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=undefined):
+  
+app/controllers/events_controller.rb:44:in `set_event'
+  [1m[36mEvent Load (75.1ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 77ms (Views: 1.5ms | ActiveRecord: 75.1ms | Allocations: 92819)
+
+
+Started GET "/events/undefined" for ::1 at 2020-07-23 17:23:49 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"undefined"}
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 404 Not Found in 2ms (ActiveRecord: 0.3ms | Allocations: 981)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=undefined):
+  
+app/controllers/events_controller.rb:44:in `set_event'
+Started GET "/events" for ::1 at 2020-07-23 17:23:49 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.4ms | Allocations: 3266)
+
+
+Started GET "/events/undefined" for ::1 at 2020-07-23 17:24:30 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"undefined"}
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 404 Not Found in 1ms (ActiveRecord: 0.4ms | Allocations: 670)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=undefined):
+  
+app/controllers/events_controller.rb:44:in `set_event'
+Started GET "/events" for ::1 at 2020-07-23 17:24:30 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.3ms | Allocations: 2551)
+
+
+Started GET "/events/undefined" for ::1 at 2020-07-23 17:24:30 -0400
+Started GET "/events" for ::1 at 2020-07-23 17:24:30 -0400
+Processing by EventsController#show as HTML
+Processing by EventsController#index as HTML
+  Parameters: {"id"=>"undefined"}
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+  [1m[36mEvent Load (0.7ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.4ms | Allocations: 1494)
+
+
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 404 Not Found in 4ms (ActiveRecord: 0.7ms | Allocations: 2195)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=undefined):
+  
+app/controllers/events_controller.rb:44:in `set_event'
+Started GET "/events/undefined" for ::1 at 2020-07-23 17:24:33 -0400
+Started GET "/events" for ::1 at 2020-07-23 17:24:33 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"undefined"}
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.7ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 404 Not Found in 2ms (ActiveRecord: 0.7ms | Allocations: 794)
+
+
+  [1m[36mEvent Load (1.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=undefined):
+  
+app/controllers/events_controller.rb:44:in `set_event'
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 70ms (Views: 67.9ms | ActiveRecord: 1.3ms | Allocations: 92849)
+
+
+Started GET "/events/undefined" for ::1 at 2020-07-23 17:24:33 -0400
+Started GET "/events" for ::1 at 2020-07-23 17:24:33 -0400
+Processing by EventsController#show as HTML
+Processing by EventsController#index as HTML
+  Parameters: {"id"=>"undefined"}
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 404 Not Found in 1ms (ActiveRecord: 0.1ms | Allocations: 669)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=undefined):
+  
+app/controllers/events_controller.rb:44:in `set_event'
+  [1m[36mEvent Load (61.9ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 64ms (Views: 1.7ms | ActiveRecord: 61.9ms | Allocations: 93532)
+
+
+Started GET "/events/undefined" for ::1 at 2020-07-23 17:24:38 -0400
+Started GET "/events" for ::1 at 2020-07-23 17:24:38 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"undefined"}
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (2.0ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 404 Not Found in 3ms (ActiveRecord: 2.0ms | Allocations: 1242)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=undefined):
+  
+app/controllers/events_controller.rb:44:in `set_event'
+  [1m[36mEvent Load (60.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 62ms (Views: 1.7ms | ActiveRecord: 60.2ms | Allocations: 93470)
+
+
+Started GET "/events/undefined" for ::1 at 2020-07-23 17:24:39 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"undefined"}
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 404 Not Found in 1ms (ActiveRecord: 0.3ms | Allocations: 670)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=undefined):
+  
+app/controllers/events_controller.rb:44:in `set_event'
+Started GET "/events" for ::1 at 2020-07-23 17:24:39 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.8ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 0.8ms | Allocations: 3590)
+
+
+Started GET "/events/undefined" for ::1 at 2020-07-23 17:24:40 -0400
+Started GET "/events" for ::1 at 2020-07-23 17:24:40 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"undefined"}
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.7ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+  [1m[36mEvent Load (0.7ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+Completed 404 Not Found in 2ms (ActiveRecord: 0.7ms | Allocations: 816)
+
+
+  ↳ app/controllers/events_controller.rb:8:in `index'
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=undefined):
+  
+app/controllers/events_controller.rb:44:in `set_event'
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.7ms | Allocations: 2485)
+
+
+Started GET "/events/undefined" for ::1 at 2020-07-23 17:24:41 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"undefined"}
+Started GET "/events" for ::1 at 2020-07-23 17:24:41 -0400
+  [1m[36mEvent Load (1.6ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 404 Not Found in 3ms (ActiveRecord: 1.6ms | Allocations: 994)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=undefined):
+  
+app/controllers/events_controller.rb:44:in `set_event'
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (2.7ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 1.8ms | ActiveRecord: 2.7ms | Allocations: 4108)
+
+
+Started GET "/events/undefined" for ::1 at 2020-07-23 17:24:42 -0400
+Started GET "/events" for ::1 at 2020-07-23 17:24:42 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"undefined"}
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (1.1ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 404 Not Found in 2ms (ActiveRecord: 1.1ms | Allocations: 880)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=undefined):
+  
+app/controllers/events_controller.rb:44:in `set_event'
+  [1m[36mEvent Load (1.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 69ms (Views: 67.2ms | ActiveRecord: 1.2ms | Allocations: 99448)
+
+
+Started GET "/events/undefined" for ::1 at 2020-07-23 17:24:42 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"undefined"}
+Started GET "/events" for ::1 at 2020-07-23 17:24:42 -0400
+  [1m[36mEvent Load (1.0ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 404 Not Found in 2ms (ActiveRecord: 1.0ms | Allocations: 1135)
+
+
+Processing by EventsController#index as HTML
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=undefined):
+  
+app/controllers/events_controller.rb:44:in `set_event'
+  [1m[36mEvent Load (58.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 61ms (Views: 1.9ms | ActiveRecord: 58.2ms | Allocations: 92664)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:24:48 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (1.6ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 1.6ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:24:48 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.3ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:24:54 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.3ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:24:54 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.4ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:26:23 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.3ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:26:23 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.9ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.9ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:26:25 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.4ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:26:25 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.5ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:26:38 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.8ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.8ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:26:39 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.7ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.7ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:26:40 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (42.7ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 45ms (Views: 1.8ms | ActiveRecord: 42.7ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:26:40 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.3ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:26:41 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.6ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.6ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:26:42 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (2.5ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 1.8ms | ActiveRecord: 2.5ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:26:43 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (5.5ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 1.4ms | ActiveRecord: 5.5ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:26:43 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (2.6ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 2.6ms | ActiveRecord: 2.6ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:27:13 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.7ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.7ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:27:13 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.3ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:27:40 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.4ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:27:40 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.2ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:27:42 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.9ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.9ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:27:42 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.6ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.6ms | Allocations: 1381)
+
+
+Started GET "/events/undefined" for ::1 at 2020-07-23 17:28:47 -0400
+Started GET "/events" for ::1 at 2020-07-23 17:28:47 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"undefined"}
+  [1m[36mEvent Load (1.9ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 404 Not Found in 3ms (ActiveRecord: 1.9ms | Allocations: 679)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=undefined):
+  
+app/controllers/events_controller.rb:44:in `set_event'
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (10.7ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 12ms (Views: 1.4ms | ActiveRecord: 10.7ms | Allocations: 2055)
+
+
+Started GET "/events/undefined" for ::1 at 2020-07-23 17:28:47 -0400
+Started GET "/events" for ::1 at 2020-07-23 17:28:47 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"undefined"}
+  [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Processing by EventsController#index as HTML
+Completed 404 Not Found in 2ms (ActiveRecord: 0.5ms | Allocations: 1118)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=undefined):
+  
+app/controllers/events_controller.rb:44:in `set_event'
+  [1m[36mEvent Load (63.1ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 65ms (Views: 1.7ms | ActiveRecord: 63.1ms | Allocations: 92227)
+
+
+Started GET "/events/undefined" for ::1 at 2020-07-23 17:29:30 -0400
+Started GET "/events" for ::1 at 2020-07-23 17:29:30 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"undefined"}
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 404 Not Found in 2ms (ActiveRecord: 0.2ms | Allocations: 1132)
+
+
+Processing by EventsController#index as HTML
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=undefined):
+  
+app/controllers/events_controller.rb:44:in `set_event'
+  [1m[36mEvent Load (69.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 72ms (Views: 2.1ms | ActiveRecord: 69.2ms | Allocations: 93749)
+
+
+Started GET "/events/undefined" for ::1 at 2020-07-23 17:29:30 -0400
+Started GET "/events" for ::1 at 2020-07-23 17:29:30 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"undefined"}
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 404 Not Found in 2ms (ActiveRecord: 0.4ms | Allocations: 981)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=undefined):
+  
+app/controllers/events_controller.rb:44:in `set_event'
+  [1m[36mEvent Load (59.1ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 61ms (Views: 1.7ms | ActiveRecord: 59.1ms | Allocations: 93421)
+
+
+Started GET "/events/undefined" for ::1 at 2020-07-23 17:29:38 -0400
+Started GET "/events" for ::1 at 2020-07-23 17:29:38 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"undefined"}
+  [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+Processing by EventsController#index as HTML
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 404 Not Found in 2ms (ActiveRecord: 0.5ms | Allocations: 1242)
+
+
+  [1m[36mEvent Load (0.6ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=undefined):
+  
+app/controllers/events_controller.rb:44:in `set_event'
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 89ms (Views: 87.9ms | ActiveRecord: 0.6ms | Allocations: 92371)
+
+
+Started GET "/events/undefined" for ::1 at 2020-07-23 17:29:38 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"undefined"}
+  [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 404 Not Found in 2ms (ActiveRecord: 0.5ms | Allocations: 785)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=undefined):
+  
+app/controllers/events_controller.rb:44:in `set_event'
+Started GET "/events" for ::1 at 2020-07-23 17:29:38 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.4ms | Allocations: 2327)
+
+
+Started GET "/events/undefined" for ::1 at 2020-07-23 17:29:39 -0400
+Started GET "/events" for ::1 at 2020-07-23 17:29:39 -0400
+Processing by EventsController#show as HTML
+Processing by EventsController#index as HTML
+  Parameters: {"id"=>"undefined"}
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+  [1m[36mEvent Load (0.7ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.4ms | Allocations: 1488)
+
+
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 404 Not Found in 4ms (ActiveRecord: 0.7ms | Allocations: 2195)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=undefined):
+  
+app/controllers/events_controller.rb:44:in `set_event'
+Started GET "/events/undefined" for ::1 at 2020-07-23 17:29:40 -0400
+Started GET "/events" for ::1 at 2020-07-23 17:29:40 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"undefined"}
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 404 Not Found in 1ms (ActiveRecord: 0.2ms | Allocations: 684)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=undefined):
+  
+app/controllers/events_controller.rb:44:in `set_event'
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.3ms | Allocations: 2434)
+
+
+Started GET "/events/undefined" for ::1 at 2020-07-23 17:29:51 -0400
+Started GET "/events" for ::1 at 2020-07-23 17:29:51 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"undefined"}
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 404 Not Found in 1ms (ActiveRecord: 0.3ms | Allocations: 670)
+
+
+Processing by EventsController#index as HTML
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=undefined):
+  
+app/controllers/events_controller.rb:44:in `set_event'
+  [1m[36mEvent Load (69.5ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 71ms (Views: 1.7ms | ActiveRecord: 69.5ms | Allocations: 91749)
+
+
+Started GET "/events/undefined" for ::1 at 2020-07-23 17:29:52 -0400
+Started GET "/events" for ::1 at 2020-07-23 17:29:52 -0400
+Processing by EventsController#index as HTML
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"undefined"}
+  [1m[36mEvent Load (0.9ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+  [1m[36mEvent Load (0.6ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 0.9ms | Allocations: 1976)
+
+
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 404 Not Found in 3ms (ActiveRecord: 0.6ms | Allocations: 2195)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=undefined):
+  
+app/controllers/events_controller.rb:44:in `set_event'
+Started GET "/events/undefined" for ::1 at 2020-07-23 17:29:54 -0400
+Started GET "/events" for ::1 at 2020-07-23 17:29:54 -0400
+Processing by EventsController#index as HTML
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"undefined"}
+  [1m[36mEvent Load (2.4ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  [1m[36mEvent Load (3.0ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 404 Not Found in 5ms (ActiveRecord: 2.4ms | Allocations: 1399)
+
+
+Completed 200 OK in 7ms (Views: 3.6ms | ActiveRecord: 3.0ms | Allocations: 2095)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=undefined):
+  
+app/controllers/events_controller.rb:44:in `set_event'
+Started GET "/events/undefined" for ::1 at 2020-07-23 17:29:54 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"undefined"}
+  [1m[36mEvent Load (0.7ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 404 Not Found in 2ms (ActiveRecord: 0.7ms | Allocations: 694)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=undefined):
+  
+app/controllers/events_controller.rb:44:in `set_event'
+Started GET "/events" for ::1 at 2020-07-23 17:29:54 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.3ms | Allocations: 2014)
+
+
+Started GET "/events/undefined" for ::1 at 2020-07-23 17:30:30 -0400
+Started GET "/events" for ::1 at 2020-07-23 17:30:30 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"undefined"}
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (1.3ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 404 Not Found in 2ms (ActiveRecord: 1.3ms | Allocations: 1242)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=undefined):
+  
+app/controllers/events_controller.rb:44:in `set_event'
+  [1m[36mEvent Load (1.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 74ms (Views: 72.4ms | ActiveRecord: 1.2ms | Allocations: 93059)
+
+
+Started GET "/events/undefined" for ::1 at 2020-07-23 17:30:30 -0400
+Started GET "/events" for ::1 at 2020-07-23 17:30:30 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"undefined"}
+  [1m[36mEvent Load (0.9ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 404 Not Found in 2ms (ActiveRecord: 0.9ms | Allocations: 1012)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=undefined):
+  
+app/controllers/events_controller.rb:44:in `set_event'
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.8ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.8ms | Allocations: 2409)
+
+
+Started GET "/events/undefined" for ::1 at 2020-07-23 17:31:50 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"undefined"}
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 404 Not Found in 2ms (ActiveRecord: 0.4ms | Allocations: 702)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=undefined):
+  
+app/controllers/events_controller.rb:44:in `set_event'
+Started GET "/events/undefined" for ::1 at 2020-07-23 17:32:28 -0400
+Started GET "/events" for ::1 at 2020-07-23 17:32:28 -0400
+Processing by EventsController#index as HTML
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"undefined"}
+  [1m[36mEvent Load (4.7ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 404 Not Found in 6ms (ActiveRecord: 4.7ms | Allocations: 669)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=undefined):
+  
+app/controllers/events_controller.rb:44:in `set_event'
+  [1m[36mEvent Load (80.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 82ms (Views: 1.7ms | ActiveRecord: 80.3ms | Allocations: 93412)
+
+
+Started GET "/events/undefined" for ::1 at 2020-07-23 17:32:28 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"undefined"}
+Started GET "/events" for ::1 at 2020-07-23 17:32:28 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (9.9ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 404 Not Found in 11ms (ActiveRecord: 9.9ms | Allocations: 1466)
+
+
+  [1m[36mEvent Load (1.0ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=undefined):
+  
+app/controllers/events_controller.rb:44:in `set_event'
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 70ms (Views: 61.0ms | ActiveRecord: 1.0ms | Allocations: 92855)
+
+
+Started GET "/events/undefined" for ::1 at 2020-07-23 17:32:46 -0400
+Started GET "/events" for ::1 at 2020-07-23 17:32:46 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"undefined"}
+  [1m[36mEvent Load (1.0ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Processing by EventsController#index as HTML
+Completed 404 Not Found in 3ms (ActiveRecord: 1.0ms | Allocations: 1116)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=undefined):
+  
+app/controllers/events_controller.rb:44:in `set_event'
+  [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 64ms (Views: 63.1ms | ActiveRecord: 0.5ms | Allocations: 92664)
+
+
+Started GET "/events/undefined" for ::1 at 2020-07-23 17:32:46 -0400
+Started GET "/events" for ::1 at 2020-07-23 17:32:46 -0400
+Processing by EventsController#index as HTML
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"undefined"}
+  [1m[36mEvent Load (17.2ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 404 Not Found in 18ms (ActiveRecord: 17.2ms | Allocations: 670)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=undefined):
+  
+app/controllers/events_controller.rb:44:in `set_event'
+  [1m[36mEvent Load (79.7ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 81ms (Views: 1.4ms | ActiveRecord: 79.7ms | Allocations: 93603)
+
+
+Started GET "/events/undefined" for ::1 at 2020-07-23 17:32:49 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"undefined"}
+Started GET "/events" for ::1 at 2020-07-23 17:32:49 -0400
+  [1m[36mEvent Load (0.8ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 404 Not Found in 2ms (ActiveRecord: 0.8ms | Allocations: 992)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=undefined):
+  
+app/controllers/events_controller.rb:44:in `set_event'
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (7.6ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 9ms (Views: 1.6ms | ActiveRecord: 7.6ms | Allocations: 9460)
+
+
+Started GET "/events/undefined" for ::1 at 2020-07-23 17:32:49 -0400
+Started GET "/events" for ::1 at 2020-07-23 17:32:49 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"undefined"}
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (2.9ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  [1m[36mEvent Load (2.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 404 Not Found in 4ms (ActiveRecord: 2.9ms | Allocations: 1647)
+
+
+Completed 200 OK in 4ms (Views: 1.9ms | ActiveRecord: 2.2ms | Allocations: 2024)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=undefined):
+  
+app/controllers/events_controller.rb:44:in `set_event'
+Started GET "/events/undefined" for ::1 at 2020-07-23 17:33:04 -0400
+Started GET "/events" for ::1 at 2020-07-23 17:33:04 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"undefined"}
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+  [1m[36mEvent Load (0.7ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+Completed 404 Not Found in 2ms (ActiveRecord: 0.5ms | Allocations: 809)
+
+
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.7ms | Allocations: 2484)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=undefined):
+  
+app/controllers/events_controller.rb:44:in `set_event'
+Started GET "/events/undefined" for ::1 at 2020-07-23 17:33:05 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"undefined"}
+Started GET "/events" for ::1 at 2020-07-23 17:33:05 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (1.4ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 404 Not Found in 3ms (ActiveRecord: 1.4ms | Allocations: 1446)
+
+
+  [1m[36mEvent Load (0.8ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=undefined):
+  
+app/controllers/events_controller.rb:44:in `set_event'
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 68ms (Views: 66.6ms | ActiveRecord: 0.8ms | Allocations: 92824)
+
+
+Started GET "/events/undefined" for ::1 at 2020-07-23 17:33:15 -0400
+Started GET "/events" for ::1 at 2020-07-23 17:33:15 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"undefined"}
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 404 Not Found in 1ms (ActiveRecord: 0.4ms | Allocations: 788)
+
+
+  [1m[36mEvent Load (1.0ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=undefined):
+  
+app/controllers/events_controller.rb:44:in `set_event'
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 73ms (Views: 71.7ms | ActiveRecord: 1.0ms | Allocations: 92849)
+
+
+Started GET "/events/undefined" for ::1 at 2020-07-23 17:33:15 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"undefined"}
+Started GET "/events" for ::1 at 2020-07-23 17:33:15 -0400
+  [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 404 Not Found in 1ms (ActiveRecord: 0.5ms | Allocations: 880)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=undefined):
+  
+app/controllers/events_controller.rb:44:in `set_event'
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.3ms | Allocations: 2214)
+
+
+Started GET "/events/undefined" for ::1 at 2020-07-23 17:33:18 -0400
+Started GET "/events" for ::1 at 2020-07-23 17:33:18 -0400
+Processing by EventsController#show as HTML
+Processing by EventsController#index as HTML
+  Parameters: {"id"=>"undefined"}
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+  [1m[36mEvent Load (0.7ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.4ms | Allocations: 1494)
+
+
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 404 Not Found in 3ms (ActiveRecord: 0.7ms | Allocations: 2137)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=undefined):
+  
+app/controllers/events_controller.rb:44:in `set_event'
+Started GET "/events/undefined" for ::1 at 2020-07-23 17:33:18 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"undefined"}
+  [1m[36mEvent Load (0.7ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 404 Not Found in 2ms (ActiveRecord: 0.7ms | Allocations: 697)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=undefined):
+  
+app/controllers/events_controller.rb:44:in `set_event'
+Started GET "/events" for ::1 at 2020-07-23 17:33:19 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.7ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.7ms | Allocations: 3504)
+
+
+Started GET "/events/undefined" for ::1 at 2020-07-23 17:33:20 -0400
+Started GET "/events" for ::1 at 2020-07-23 17:33:20 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"undefined"}
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (1.1ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+  [1m[36mEvent Load (0.6ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+Completed 404 Not Found in 2ms (ActiveRecord: 1.1ms | Allocations: 972)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=undefined):
+  
+app/controllers/events_controller.rb:44:in `set_event'
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 62ms (Views: 60.9ms | ActiveRecord: 0.6ms | Allocations: 92850)
+
+
+Started GET "/events/undefined" for ::1 at 2020-07-23 17:33:20 -0400
+Started GET "/events" for ::1 at 2020-07-23 17:33:20 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"undefined"}
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (2.7ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+Completed 404 Not Found in 4ms (ActiveRecord: 2.7ms | Allocations: 1261)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=undefined):
+  
+app/controllers/events_controller.rb:44:in `set_event'
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 67ms (Views: 66.5ms | ActiveRecord: 0.4ms | Allocations: 92811)
+
+
+Started GET "/events/undefined" for ::1 at 2020-07-23 17:33:44 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"undefined"}
+  [1m[36mEvent Load (1.3ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 404 Not Found in 2ms (ActiveRecord: 1.3ms | Allocations: 669)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=undefined):
+  
+app/controllers/events_controller.rb:44:in `set_event'
+Started GET "/events" for ::1 at 2020-07-23 17:33:44 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.4ms | Allocations: 2640)
+
+
+Started GET "/events/undefined" for ::1 at 2020-07-23 17:33:44 -0400
+Started GET "/events" for ::1 at 2020-07-23 17:33:44 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"undefined"}
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Processing by EventsController#index as HTML
+Completed 404 Not Found in 2ms (ActiveRecord: 0.4ms | Allocations: 1127)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=undefined):
+  
+app/controllers/events_controller.rb:44:in `set_event'
+  [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 72ms (Views: 71.1ms | ActiveRecord: 0.5ms | Allocations: 92674)
+
+
+Started GET "/events/undefined" for ::1 at 2020-07-23 17:33:54 -0400
+Started GET "/events" for ::1 at 2020-07-23 17:33:54 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"undefined"}
+  [1m[36mEvent Load (1.3ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Processing by EventsController#index as HTML
+Completed 404 Not Found in 3ms (ActiveRecord: 1.3ms | Allocations: 1117)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=undefined):
+  
+app/controllers/events_controller.rb:44:in `set_event'
+  [1m[36mEvent Load (59.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 62ms (Views: 2.1ms | ActiveRecord: 59.4ms | Allocations: 92664)
+
+
+Started GET "/events/undefined" for ::1 at 2020-07-23 17:33:54 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"undefined"}
+Started GET "/events" for ::1 at 2020-07-23 17:33:54 -0400
+  [1m[36mEvent Load (6.1ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 404 Not Found in 8ms (ActiveRecord: 6.1ms | Allocations: 1008)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=undefined):
+  
+app/controllers/events_controller.rb:44:in `set_event'
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.3ms | Allocations: 2042)
+
+
+Started GET "/events/undefined" for ::1 at 2020-07-23 17:33:59 -0400
+Started GET "/events" for ::1 at 2020-07-23 17:33:59 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"undefined"}
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+  [1m[36mEvent Load (0.6ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+Completed 404 Not Found in 2ms (ActiveRecord: 0.5ms | Allocations: 810)
+
+
+  ↳ app/controllers/events_controller.rb:8:in `index'
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=undefined):
+  
+app/controllers/events_controller.rb:44:in `set_event'
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.6ms | Allocations: 2485)
+
+
+Started GET "/events/undefined" for ::1 at 2020-07-23 17:33:59 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"undefined"}
+Started GET "/events" for ::1 at 2020-07-23 17:33:59 -0400
+  [1m[36mEvent Load (1.3ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 404 Not Found in 2ms (ActiveRecord: 1.3ms | Allocations: 994)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=undefined):
+  
+app/controllers/events_controller.rb:44:in `set_event'
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.4ms | Allocations: 2534)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:34:41 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.3ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:34:41 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.5ms | Allocations: 1381)
+
+
+Started GET "/events/undefined" for ::1 at 2020-07-23 17:36:30 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"undefined"}
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 404 Not Found in 1ms (ActiveRecord: 0.3ms | Allocations: 670)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=undefined):
+  
+app/controllers/events_controller.rb:44:in `set_event'
+Started GET "/events" for ::1 at 2020-07-23 17:37:57 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.2ms | Allocations: 1380)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:38:05 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.4ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:38:05 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.4ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:38:44 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (2.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 1.4ms | ActiveRecord: 2.3ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:38:44 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.3ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:39:26 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.2ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:39:26 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.3ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:39:45 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (3.1ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 1.7ms | ActiveRecord: 3.1ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:39:45 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.2ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:39:46 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.3ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:39:46 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.2ms | Allocations: 1381)
+
+
+Started GET "/events/undefined" for ::1 at 2020-07-23 17:40:23 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"undefined"}
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 404 Not Found in 1ms (ActiveRecord: 0.2ms | Allocations: 670)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=undefined):
+  
+app/controllers/events_controller.rb:44:in `set_event'
+Started GET "/events/undefined" for ::1 at 2020-07-23 17:40:26 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"undefined"}
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 404 Not Found in 1ms (ActiveRecord: 0.2ms | Allocations: 669)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=undefined):
+  
+app/controllers/events_controller.rb:44:in `set_event'
+Started GET "/events/undefined" for ::1 at 2020-07-23 17:40:31 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"undefined"}
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 404 Not Found in 1ms (ActiveRecord: 0.2ms | Allocations: 669)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=undefined):
+  
+app/controllers/events_controller.rb:44:in `set_event'
+Started GET "/events/undefined" for ::1 at 2020-07-23 17:40:49 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"undefined"}
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 404 Not Found in 1ms (ActiveRecord: 0.2ms | Allocations: 669)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=undefined):
+  
+app/controllers/events_controller.rb:44:in `set_event'
+Started GET "/events" for ::1 at 2020-07-23 17:42:52 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.3ms | Allocations: 1383)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:42:52 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.8ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.6ms | ActiveRecord: 0.8ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:43:24 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.3ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:43:25 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.5ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:43:48 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (1.0ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 2.3ms | ActiveRecord: 1.0ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:43:48 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.3ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:43:56 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.4ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:43:56 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (1.9ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 1.6ms | ActiveRecord: 1.9ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:43:59 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (9.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 11ms (Views: 1.7ms | ActiveRecord: 9.2ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:43:59 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (9.0ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 11ms (Views: 2.1ms | ActiveRecord: 9.0ms | Allocations: 1390)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:44:00 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.4ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:44:00 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.3ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:44:14 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.3ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:44:14 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.6ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.6ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:44:33 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.3ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:44:33 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.3ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:44:36 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (12.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 14ms (Views: 1.4ms | ActiveRecord: 12.4ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:44:36 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.4ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:44:56 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.4ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:44:56 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.4ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:45:06 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.8ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.8ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:45:06 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.3ms | Allocations: 1381)
+
+
+Started GET "/events/undefined" for ::1 at 2020-07-23 17:45:09 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"undefined"}
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 404 Not Found in 1ms (ActiveRecord: 0.3ms | Allocations: 670)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=undefined):
+  
+app/controllers/events_controller.rb:44:in `set_event'
+Started GET "/events/1" for ::1 at 2020-07-23 17:45:29 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (3.6ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 200 OK in 5ms (Views: 0.5ms | ActiveRecord: 3.6ms | Allocations: 928)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:52:42 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.6ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.6ms | Allocations: 1474)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:52:46 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.4ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:52:52 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.4ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:53:50 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (1.7ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 2.0ms | ActiveRecord: 1.7ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:54:07 -0400
+Started GET "/auth/verify" for ::1 at 2020-07-23 17:54:07 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.4ms | Allocations: 1381)
+
+
+Processing by AuthenticationController#verify as HTML
+Filter chain halted as :authorize_request rendered or redirected
+Completed 401 Unauthorized in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 220)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:54:27 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (3.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 3.3ms | ActiveRecord: 3.3ms | Allocations: 1474)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:54:27 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (2.8ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+Started GET "/auth/verify" for ::1 at 2020-07-23 17:54:27 -0400
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 2.0ms | ActiveRecord: 2.8ms | Allocations: 1707)
+
+
+Processing by AuthenticationController#verify as HTML
+Filter chain halted as :authorize_request rendered or redirected
+Completed 401 Unauthorized in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 193)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:54:32 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (3.8ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 1.7ms | ActiveRecord: 3.8ms | Allocations: 1382)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:54:32 -0400
+Started GET "/auth/verify" for ::1 at 2020-07-23 17:54:32 -0400
+Processing by EventsController#index as HTML
+Processing by AuthenticationController#verify as HTML
+Filter chain halted as :authorize_request rendered or redirected
+  [1m[36mEvent Load (1.1ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 401 Unauthorized in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 211)
+
+
+Completed 200 OK in 3ms (Views: 1.4ms | ActiveRecord: 1.1ms | Allocations: 2064)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:56:58 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.5ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:56:59 -0400
+Started GET "/auth/verify" for ::1 at 2020-07-23 17:56:59 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Processing by AuthenticationController#verify as HTML
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.5ms | Allocations: 1859)
+
+
+Filter chain halted as :authorize_request rendered or redirected
+Completed 401 Unauthorized in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 408)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:57:02 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.4ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:57:02 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.9ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 0.9ms | Allocations: 1382)
+
+
+Started GET "/auth/verify" for ::1 at 2020-07-23 17:57:02 -0400
+Processing by AuthenticationController#verify as HTML
+Filter chain halted as :authorize_request rendered or redirected
+Completed 401 Unauthorized in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 193)
+
+
+Started GET "/auth/verify" for ::1 at 2020-07-23 17:57:05 -0400
+Started GET "/events" for ::1 at 2020-07-23 17:57:05 -0400
+Processing by EventsController#index as HTML
+Processing by AuthenticationController#verify as HTML
+Filter chain halted as :authorize_request rendered or redirected
+Completed 401 Unauthorized in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 193)
+
+
+  [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.5ms | Allocations: 1826)
+
+
+Started POST "/auth/login" for ::1 at 2020-07-23 17:57:23 -0400
+Processing by AuthenticationController#login as HTML
+  Parameters: {"auth"=>{"username"=>"jp", "password"=>"[FILTERED]"}, "authentication"=>{"auth"=>{"username"=>"jp", "password"=>"[FILTERED]"}}}
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "jp"], ["LIMIT", 1]]
+  ↳ app/controllers/authentication_controller.rb:6:in `login'
+Completed 200 OK in 224ms (Views: 0.3ms | ActiveRecord: 9.6ms | Allocations: 7829)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:57:51 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (1.8ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 1.8ms | ActiveRecord: 1.8ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:57:52 -0400
+Started GET "/auth/verify" for ::1 at 2020-07-23 17:57:52 -0400
+Processing by EventsController#index as HTML
+Processing by AuthenticationController#verify as HTML
+  [1m[36mEvent Load (2.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 1.9ms | ActiveRecord: 2.3ms | Allocations: 2151)
+
+
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:19:in `authorize_request'
+Completed 200 OK in 4ms (Views: 0.3ms | ActiveRecord: 1.2ms | Allocations: 2550)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:57:56 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.4ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:57:56 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.5ms | Allocations: 1381)
+
+
+Started GET "/auth/verify" for ::1 at 2020-07-23 17:57:56 -0400
+Processing by AuthenticationController#verify as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:19:in `authorize_request'
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.3ms | Allocations: 885)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:58:00 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.3ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:58:01 -0400
+Started GET "/auth/verify" for ::1 at 2020-07-23 17:58:01 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.3ms | Allocations: 1863)
+
+
+Processing by AuthenticationController#verify as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:19:in `authorize_request'
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.3ms | Allocations: 888)
+
+
+Started POST "/auth/login" for ::1 at 2020-07-23 17:58:05 -0400
+Processing by AuthenticationController#login as HTML
+  Parameters: {"auth"=>{"username"=>"jp", "password"=>"[FILTERED]"}, "authentication"=>{"auth"=>{"username"=>"jp", "password"=>"[FILTERED]"}}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "jp"], ["LIMIT", 1]]
+  ↳ app/controllers/authentication_controller.rb:6:in `login'
+Completed 200 OK in 208ms (Views: 0.3ms | ActiveRecord: 0.3ms | Allocations: 1032)
+
+
+Started GET "/events/1" for ::1 at 2020-07-23 17:58:11 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.2ms | Allocations: 931)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:58:44 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (11.8ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 14ms (Views: 1.5ms | ActiveRecord: 11.8ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:58:45 -0400
+Processing by EventsController#index as HTML
+Started GET "/auth/verify" for ::1 at 2020-07-23 17:58:45 -0400
+Processing by AuthenticationController#verify as HTML
+  [1m[36mEvent Load (2.6ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 5ms (Views: 1.6ms | ActiveRecord: 2.6ms | Allocations: 2412)
+
+
+  ↳ app/controllers/application_controller.rb:19:in `authorize_request'
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.7ms | Allocations: 2410)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:58:49 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.2ms | Allocations: 1381)
+
+
+Started GET "/events" for ::1 at 2020-07-23 17:58:49 -0400
+Started GET "/auth/verify" for ::1 at 2020-07-23 17:58:49 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (1.8ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Processing by AuthenticationController#verify as HTML
+Completed 200 OK in 5ms (Views: 2.7ms | ActiveRecord: 1.8ms | Allocations: 1849)
+
+
+  [1m[36mUser Load (8.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:19:in `authorize_request'
+Completed 200 OK in 10ms (Views: 0.4ms | ActiveRecord: 8.2ms | Allocations: 1100)
+
+
+Started POST "/users/" for ::1 at 2020-07-23 17:58:58 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"username"=>"dc", "email"=>"dc@email.com", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:23:in `create'
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "dc"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:23:in `create'
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "dc@email.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:23:in `create'
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("username", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "dc"], ["email", "dc@email.com"], ["password_digest", "$2a$12$s5frV6i1JX27m1GZPjtnpeKdb1j4MjXHCVW4iDhjkXtzza9.K0652"], ["created_at", "2020-07-23 21:58:58.573745"], ["updated_at", "2020-07-23 21:58:58.573745"]]
+  ↳ app/controllers/users_controller.rb:23:in `create'
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:23:in `create'
+Completed 201 Created in 211ms (Views: 0.7ms | ActiveRecord: 1.9ms | Allocations: 5612)
+
+
+Started POST "/auth/login" for ::1 at 2020-07-23 17:59:10 -0400
+Processing by AuthenticationController#login as HTML
+  Parameters: {"auth"=>{"username"=>"dc", "password"=>"[FILTERED]"}, "authentication"=>{"auth"=>{"username"=>"dc", "password"=>"[FILTERED]"}}}
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "dc"], ["LIMIT", 1]]
+  ↳ app/controllers/authentication_controller.rb:6:in `login'
+Completed 200 OK in 221ms (Views: 0.3ms | ActiveRecord: 1.5ms | Allocations: 1032)
+
+
+Started GET "/events" for ::1 at 2020-07-23 18:08:14 -0400
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (16.0ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 70ms (Views: 18.7ms | ActiveRecord: 37.1ms | Allocations: 12194)
+
+
+Started GET "/events/1" for ::1 at 2020-07-23 18:08:18 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.8ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 200 OK in 27ms (Views: 0.5ms | ActiveRecord: 13.1ms | Allocations: 1399)
+
+
+Started GET "/events/undefined" for ::1 at 2020-07-23 18:08:44 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"undefined"}
+  [1m[36mEvent Load (0.7ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 404 Not Found in 2ms (ActiveRecord: 0.7ms | Allocations: 691)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=undefined):
+  
+app/controllers/events_controller.rb:44:in `set_event'
+Started GET "/events/1" for ::1 at 2020-07-23 18:08:48 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (1.0ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 200 OK in 3ms (Views: 0.5ms | ActiveRecord: 1.0ms | Allocations: 977)
+
+
+Started POST "/auth/login" for ::1 at 2020-07-23 18:09:46 -0400
+Processing by AuthenticationController#login as HTML
+  Parameters: {"auth"=>{"username"=>"jp", "password"=>"[FILTERED]"}, "authentication"=>{"auth"=>{"username"=>"jp", "password"=>"[FILTERED]"}}}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "jp"], ["LIMIT", 1]]
+  ↳ app/controllers/authentication_controller.rb:6:in `login'
+Completed 200 OK in 251ms (Views: 0.5ms | ActiveRecord: 4.5ms | Allocations: 6698)
+
+
+Started GET "/events/1" for ::1 at 2020-07-23 18:09:54 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.3ms | Allocations: 928)
+
+
+Started GET "/events/undefined" for ::1 at 2020-07-23 18:10:03 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"undefined"}
+  [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 404 Not Found in 2ms (ActiveRecord: 0.5ms | Allocations: 674)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=undefined):
+  
+app/controllers/events_controller.rb:44:in `set_event'
+Started GET "/events" for 127.0.0.1 at 2020-07-23 18:10:58 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.2ms | Allocations: 1125)
+
+
+Started POST "/auth/login" for 127.0.0.1 at 2020-07-23 18:11:03 -0400
+Processing by AuthenticationController#login as HTML
+  Parameters: {"auth"=>{"username"=>"jp", "password"=>"[FILTERED]"}, "authentication"=>{"auth"=>{"username"=>"jp", "password"=>"[FILTERED]"}}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "jp"], ["LIMIT", 1]]
+  ↳ app/controllers/authentication_controller.rb:6:in `login'
+Completed 200 OK in 226ms (Views: 0.3ms | ActiveRecord: 0.5ms | Allocations: 1034)
+
+
+Started GET "/events/1" for 127.0.0.1 at 2020-07-23 18:11:07 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (3.6ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 200 OK in 6ms (Views: 0.5ms | ActiveRecord: 3.6ms | Allocations: 928)
+
+
+Started GET "/events/1" for ::1 at 2020-07-23 18:15:45 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (37.1ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 200 OK in 58ms (Views: 4.7ms | ActiveRecord: 37.1ms | Allocations: 928)
+
+
+Started POST "/users/" for ::1 at 2020-07-23 18:16:15 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"username"=>"john", "email"=>"john@aol.com", "password"=>"[FILTERED]"}}
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:23:in `create'
+  [1m[36mUser Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "john"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:23:in `create'
+  [1m[36mUser Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "john@aol.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:23:in `create'
+  [1m[36mUser Create (30.0ms)[0m  [1m[32mINSERT INTO "users" ("username", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "john"], ["email", "john@aol.com"], ["password_digest", "$2a$12$5RBzbqwY6vFZjUqKC/e9c.dttoj/diPn2Yi27I5CKXxU4fTfwJasO"], ["created_at", "2020-07-23 22:16:16.411691"], ["updated_at", "2020-07-23 22:16:16.411691"]]
+  ↳ app/controllers/users_controller.rb:23:in `create'
+  [1m[35m (15.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:23:in `create'
+Completed 201 Created in 464ms (Views: 2.0ms | ActiveRecord: 47.5ms | Allocations: 5611)
+
+
+Started POST "/auth/login" for ::1 at 2020-07-23 18:16:25 -0400
+Processing by AuthenticationController#login as HTML
+  Parameters: {"auth"=>{"username"=>"john", "password"=>"[FILTERED]"}, "authentication"=>{"auth"=>{"username"=>"john", "password"=>"[FILTERED]"}}}
+  [1m[36mUser Load (4.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "john"], ["LIMIT", 1]]
+  ↳ app/controllers/authentication_controller.rb:6:in `login'
+Completed 200 OK in 356ms (Views: 0.7ms | ActiveRecord: 4.2ms | Allocations: 1032)
+
+
+Started GET "/events/1" for ::1 at 2020-07-23 18:16:34 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (2.9ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 200 OK in 10ms (Views: 1.0ms | ActiveRecord: 2.9ms | Allocations: 928)
+
+
+Started GET "/events/undefined" for ::1 at 2020-07-23 18:16:45 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"undefined"}
+  [1m[36mEvent Load (1.6ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 404 Not Found in 4ms (ActiveRecord: 1.6ms | Allocations: 670)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=undefined):
+  
+app/controllers/events_controller.rb:44:in `set_event'
+Started GET "/events/1" for ::1 at 2020-07-23 18:16:59 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (7.6ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 200 OK in 10ms (Views: 0.4ms | ActiveRecord: 7.6ms | Allocations: 928)
+
+
