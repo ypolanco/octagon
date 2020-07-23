@@ -3,9 +3,9 @@ import { withRouter } from 'react-router';
 import './App.css'
 
 import Header from './components/Header';
-import Main from './components/Main';
-import Footer from './components/Footer';
-import { loginUser, registerUser, verifyUser, removeToken } from './services/api-helper';
+import SignIn from './components/SignIn';
+import SignUp from './components/SignUp';
+import { loginUser, registerUser, verifyUser, removeToken } from './services/auth.js';
 
 class App extends Component {
   state = {
@@ -44,8 +44,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header handleLogout={this.handleLogout} currentUser={this.state.currentUser} />
-        <Main handleRegister={this.handleRegister} handleLogin={this.handleLogin} currentUser={this.state.currentUser} />
-        <Footer currentUser={this.state.currentUser}/>
+        <SignIn handleRegister={this.handleRegister} handleLogin={this.handleLogin} currentUser={this.state.currentUser} />
       </div>
     )
   }

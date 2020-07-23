@@ -1,38 +1,233 @@
-.App {
+body {
+  margin: 0;
+  height: 100%;
+}
+html {
+  width: 100%;
+  height: 100%;
+}
+/* ==================================================== */
+/* ====================== HEADER ====================== */
+/* ==================================================== */
+.covid_message {
+  display: flex;
+  background-color: red;
+  color: white;
+  justify-content: center;
+}
+.covid_message img {
+  display: flex;
+  align-self: center;
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+}
+.covid_message p {
+  margin: 0 10px;
+  padding: 10px;
+}
+header {
+  background-color: orange;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "a b c";
+}
+
+.list-links {
+  grid-area: a;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: none;
+}
+
+#header-icon {
+  grid-area: b;
+  text-align: center;
+  text-decoration: none;
+}
+
+.sign-in-out-up {
+  grid-area: c;
+  justify-self: center;
+  align-self: center;
+}
+
+@media only screen and (max-device-width: 590px) {
+  header {
+    height: 10vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+      "a"
+      "b"
+      "c";
+  }
+  #header-icon {
+    grid-area: b;
+  }
+  header h1 {
+    margin: 5px auto;
+    font-size: 3vh;
+  }
+  .sign-in-out-up {
+    grid-area: a;
+    justify-self: center;
+  }
+  .list-links {
+    grid-area: c;
+    justify-content: space-around;
+  }
+}
+/* ================================================== */
+/* ====================== MAIN ====================== */
+/* ================================================== */
+
+main {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: "d e f";
+  justify-items: center;
+  justify-content: center;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* ================================================== */
+/* ====================== Login ====================== */
+/* ================================================== */
+.login-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  background-color: #515151;
+  height: 100vh;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.login-form {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
   color: white;
+  max-width: 500px;
+}
+/*
+.login-form p {
+  margin: 0;
+  margin-top: 26px;
+}
+*/
+.login-title {
+  text-align: center;
+  margin: 0;
+  padding-top: 15vh;
+}
+/*
+.login-submit {
+  justify-content: center;
+}
+*/
+.form-field {
+  /* display: flex;
+  justify-content: center;
+  justify-items: center;
+  text-align: center; */
+}
+.form-field input {
+  border-radius: 15px;
 }
 
-.App-link {
-  color: #61dafb;
+.social-icons .row {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 15px;
+}
+.social-icons li {
+  list-style-type: none;
+}
+.social-icons p {
+  text-align: center;
+  margin: 0 auto;
+}
+.login-submit {
+  display: flex;
+  margin: 15px auto;
+  text-align: center;
+  align-self: center;
+}
+.login-title button {
+  padding: 170px 15px;
+  width: 343px;
+  height: 60px;
+}
+#join-link {
+  padding-left: 15px;
+}
+/* ================================================== */
+/* ==================== Register ==================== */
+/* ================================================== */
+.register-form {
+  grid-area: e;
+}
+.register-form p {
+  margin: 0;
+  margin-top: 26px;
+}
+.register-title {
+  text-align: center;
+}
+.register-submit {
+  justify-content: center;
+}
+.form-field {
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.form-field label {
+  margin-right: 10px;
+  align-items: flex-start;
+}
+/* ================================================== */
+/* ==================== Register ==================== */
+/* ================================================== */
+.category-preview {
+  border: 1px solid black;
+  margin: 0 1.5vw;
+  height: 78vh;
+}
+.category-preview p {
+  padding: 0 5px;
+}
+/* ================================================== */
+/* ==================== Footer ==================== */
+/* ================================================== */
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 60px; /* Height of the footer */
+  background: #6cf;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.song-info {
+  overflow: auto;
+  grid-area: e;
+}
+.categorized-list {
+  grid-area: e;
+}
+.add-song-form {
+  grid-area: e;
+}
+.edit-song-form {
+  grid-area: e;
+}
+
+@media only screen and (max-width: 590px) {
+  main {
+    display: block;
   }
 }
