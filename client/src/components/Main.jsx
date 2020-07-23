@@ -8,6 +8,7 @@ import Qr from "./Qr.jsx";
 import Success from "./Success.jsx";
 import Login from "./Login.jsx";
 import Register from "./Register.jsx";
+import Footer from "./Footer";
 
 export default class Main extends Component {
   state = {
@@ -62,6 +63,7 @@ export default class Main extends Component {
             />
           )}
         />
+        <Footer />
       </div>
     );
   }
