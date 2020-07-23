@@ -5,6 +5,7 @@ import './App.css'
 import Header from './components/Header';
 import SignIn from './components/SignIn';
 import SignUp from './components/SignUp';
+import Footer from './components/Footer';
 import { loginUser, registerUser, verifyUser, removeToken } from './services/auth.js';
 
 class App extends Component {
@@ -45,7 +46,8 @@ class App extends Component {
       <div className="App">
         <Header handleLogout={this.handleLogout} currentUser={this.state.currentUser} />
         {/* <SignIn handleRegister={this.handleRegister} handleLogin={this.handleLogin} currentUser={this.state.currentUser} /> */}
-        <SignUp />
+        {/* <SignUp /> */}
+        <Footer />
       </div>
     )
   }
