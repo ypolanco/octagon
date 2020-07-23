@@ -44,7 +44,8 @@ class App extends Component {
     return (
       <div className="App">
         <Header handleLogout={this.handleLogout} currentUser={this.state.currentUser} />
-        <SignIn handleRegister={this.handleRegister} handleLogin={this.handleLogin} currentUser={this.state.currentUser} />
+        {/* <SignIn handleRegister={this.handleRegister} handleLogin={this.handleLogin} currentUser={this.state.currentUser} /> */}
+        <SignUp />
       </div>
     )
   }

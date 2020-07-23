@@ -128,10 +128,15 @@ main {
 }
 */
 .form-field {
-  /* display: flex;
+  display: flex;
   justify-content: center;
   justify-items: center;
-  text-align: center; */
+  text-align: center;
+}
+.login-form input {
+  margin: 0;
+  display: flex;
+  justify-self: center;
 }
 .form-field input {
   border-radius: 15px;
@@ -167,7 +172,8 @@ main {
 /* ==================== Register ==================== */
 /* ================================================== */
 .register-form {
-  grid-area: e;
+  height: 100vh;
+  display: flex;
 }
 .register-form p {
   margin: 0;

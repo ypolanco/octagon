@@ -19,49 +19,66 @@ export default class SignUp extends Component {
     const { username, email, password } = this.state;
     return (
       <div className='register-form'>
-        <form onSubmit={(e) => {
-          e.preventDefault();
-          this.props.handleRegister(this.state);
-          this.props.history.push('/');
-        }}>
+        <form onSubmit={(e) => { e.preventDefault(); this.props.handleRegister(this.state); this.props.history.push('/'); }}>
           <h3 className='register-title'>Register</h3>
-          <div className='form-field'>
-            <label htmlFor="username">username:</label>
-            <input
-              id="username"
-              type="text"
-              name="username"
-              autoComplete="username"
-              value={username}
-              onChange={this.handleChange}
-            />
+          <div className='row'>
+            <div className='form-field'>
+              <input
+                id="username"
+                type="text"
+                name="username"
+                autoComplete="username"
+                placeholder='username'
+                value={username}
+                onChange={this.handleChange}
+              />
+            </div>
+            <div className='form-field'>
+              <input
+                id="username"
+                type="text"
+                name="username"
+                autoComplete="username"
+                placeholder='username'
+                value={username}
+                onChange={this.handleChange}
+              />
+            </div>
           </div>
-          <div className='form-field'>
-            <label htmlFor="email">email:</label>
-            <input
-              id="email"
-              type="text"
-              name="email"
-              autoComplete="email"
-              value={email}
-              onChange={this.handleChange}
-            />
+          <div className='row'>
+            <div className='form-field'>
+              <input
+                id="email"
+                type="text"
+                name="email"
+                autoComplete="email"
+                placeholder='email'
+                value={email}
+                onChange={this.handleChange}
+              />
+            </div>
           </div>
-          <div className='form-field'>
-            <label htmlFor="password">password:</label>
-            <input
-              id="password"
-              type="password"
-              name="password"
-              autoComplete="off"
-              value={password}
-              onChange={this.handleChange}
-            />
+          <div className='row'>
+            <div className='form-field'>
+              <input
+                id="password"
+                type="password"
+                name="password"
+                autoComplete="off"
+                placeholder='password'
+                value={password}
+                onChange={this.handleChange}
+              />
+            </div>
           </div>
-          <button className='register-submit'>Submit</button>
+          <div className='row'>
+            <button className='register-submit'>Submit</button>
+          </div>
         </form>
-        <p>Already have an account?</p>
-        <Link to='/login'>Login</Link>
+        <div className='row'>
+          <p>Already have an account?</p>
+          <Link to='/login'>Login</Link>
+        </div>
       </div>
     )
   }
