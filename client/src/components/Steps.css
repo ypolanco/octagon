@@ -1,0 +1,32 @@
+.steps-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  font-size: 13px;
+}
+
+.step-one,
+.step-two,
+.step-three,
+.step-four,
+.step-five {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.steps-container p{
+  margin: 2px;
+}
+
+
+.images {
+  height: 200px;
+  margin-bottom: 10px;
+  border-radius: 30%;
+}
