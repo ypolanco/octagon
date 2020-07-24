@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Banner from './banner/Banner';
+import Footer from "./Footer"
 
 export default function Events(props) {
   const { events } = props;
@@ -36,7 +37,7 @@ export default function Events(props) {
         </Link>
       </div>
       ))}
-    </div>
+      </div>
     </>
   );
 }

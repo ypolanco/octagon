@@ -52,9 +52,10 @@ export default class Event extends Component {
             <Link to={`/steps`}>
               <button className="button">Check In</button>
             </Link>
-            <Footer />
+            
           </div>
-        </div>  
+        </div> 
+        {/* <Footer /> */}
       </div>
     );
   }

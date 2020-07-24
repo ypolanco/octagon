@@ -189,7 +189,7 @@ body {
   font-family: sans-serif;
   display: flex;
   justify-content: center;
-  border: 2px solid red;
+  margin-top: 15px;
 }
 .events-container .act-event .event-name h2 {
   display: flex;
@@ -272,18 +272,20 @@ body {
 /* ================================================== */
 
 footer {
-  position: fixed;
-  left: 0;
+  /* position: fixed;  */
+   left: 0;
   bottom: 0;
-  width: 100%;
+  width: 100vw;
   /* height: 60px; Height of the footer */
   /* background: #6cf; */
+  margin-top: 20px;
 }
 
 footer .row {
   display: flex;
   justify-content: space-evenly;
   border-top: 2px solid black;
+  width: 100%;
 }
 footer .vl {
   border-right: 2px solid black;

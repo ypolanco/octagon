@@ -8,6 +8,7 @@ import Banner from "../components/banner/Banner"
 import { Link } from 'react-router-dom'
 import placeholder from "../images/placeholder.png"
 import "./Steps.css"
+import Footer from "./Footer"
 
 function Steps() {
   return (
@@ -55,7 +56,9 @@ function Steps() {
         <h2>Step 5</h2>
         <img src={placeholder} alt="success"  className="images"/>
         <p>Enjoy your day!.</p>
+        <Footer/>
       </div>
+      
     </div>
   );
 }
