@@ -1,6 +1,52 @@
 .App {
   text-align: center;
 }
+/* ================================================== */
+/* ====================   Login  ==================== */
+/* ================================================== */
+.login-container {
+  height: 100vh;
+  border: 2px solid purple;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 0 auto;
+  background-color: rgb(81,81,81);
+  color: white;
+}
+.login {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+}
+.social {
+  display: flex;
+  justify-content: space-evenly;
+}
+.motha {
+  margin-top: 12vh;
+}
+.motha h1 {
+  font-size: 36px;
+}
+.motha input {
+  border-radius: 20px;
+  width: 327px;
+  height: 40px;
+  border: none;
+  margin-top: 10px;
+}
+.motha button {
+  width: 327px;
+  height: 40px;
+  border: none;
+  border-radius: 15px;
+  background-color: rgb(49, 49, 49);
+  color: white;
+  font-size: large;
+  font-weight: bold;
+}
 
 /* ================================================== */
 /* ==================== Footer ==================== */
