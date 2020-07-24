@@ -210,6 +210,7 @@ body {
 /* ================================================== */
 .single-event-container {
   color: white;
+  text-align: center;
 }
 .single-event {
   display: inline-block;
@@ -227,10 +228,10 @@ body {
   font-family: sans-serif;
   display: block;
   justify-content: center;
-  border: 2px solid red;
   width: 375px;
   height: 240px;
   color: white;
+  text-align: left;
 }
 .info-board-2 {
   background-color: #32374A;
@@ -249,7 +250,7 @@ body {
   font-size: large;
   font-weight: bold;  
   justify-self: center;
-  margin: 10px;
+  margin: 0 10px;
 }
 .single-event-container p {
   padding: 0 10px;
