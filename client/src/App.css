@@ -47,7 +47,17 @@
   font-size: large;
   font-weight: bold;
 }
-
+.subform .row .column {
+  display: flex;
+  justify-content: space-between;
+}
+.subform .row .column input {
+  display: inline-flex;
+  width: 45%;
+}
+.login .form .button {
+  margin-top: 15vh;
+}
 /* ================================================== */
 /* ==================== Footer ==================== */
 /* ================================================== */

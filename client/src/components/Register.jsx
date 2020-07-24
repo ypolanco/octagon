@@ -36,26 +36,28 @@ export default class Register extends Component {
                 password: "",
               });
             }}>
-            <h3 className="header">Register</h3>
+            <div className='subform'>
+            <h1 className="header">STADIO</h1>
             <div className='row'>
-              <input
-                className="register-input"
-                id="firstname"
-                type="text"
-                name="firstname"
-                placeholder='First Name'
-                value={firstname}
-                onChange={this.handleChange}
-              />
-              <input
-                className="register-input"
-                id="lastname"
-                type="text"
-                name="lastname"
-                placeholder='Last Name'
-                value={lastname}
-                onChange={this.handleChange}
-              />
+              <span className='column'>    
+                <input
+                  className="register-input"
+                  id="firstname"
+                  type="text"
+                  name="firstname"
+                  placeholder='First Name'
+                  value={firstname}
+                  onChange={this.handleChange} />
+              
+                <input
+                  className="register-input"
+                  id="lastname"
+                  type="text"
+                  name="lastname"
+                  placeholder='Last Name'
+                  value={lastname}
+                  onChange={this.handleChange} />
+              </span>
             </div>
             <input
               className="register-input"
@@ -77,7 +79,8 @@ export default class Register extends Component {
               onChange={this.handleChange}
             />
             <br />
-            <button className="button">Create Account</button>
+            <button className="button">Sign Up</button>
+            </div>
           </form>
         </div>
       </div>
