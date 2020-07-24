@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Banner from "./banner/Banner";
 import { getOneEvent } from "../services/events";
+import "./Success.css"
 
 export default class Success extends Component {
   state = {
@@ -25,9 +26,9 @@ export default class Success extends Component {
     const { event } = this.state;
     console.log("here here",this.state.event);
     return (
-      <div>
+      <div className="success-container">
         <Banner />
-        <div>
+        <div className="main-content">
           <p>{event.name}</p>
           <p>{event.date}</p>
           <p>{event.time}</p>

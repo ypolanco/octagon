@@ -12,7 +12,10 @@ import "./Steps.css"
 function Steps() {
   return (
     <div className="steps-container">
-      <Banner/>
+      <Banner />
+      <div className="arrow">
+      <Link to='/home'><img className='back-arrow' src='https://i.imgur.com/x60pPmo.png' alt='back arrow'/></Link>
+      </div>
       <div className="header">
         <h1>Let's get you checked in!</h1>
       </div>

@@ -1,0 +1,11 @@
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  .success-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-content {
+    text-align: center;
+    margin-top: 40px;
+  }
+}

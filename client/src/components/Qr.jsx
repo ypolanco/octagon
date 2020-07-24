@@ -9,7 +9,10 @@ export default function Qr(props) {
   console.log(events);
   return (
       <div className="qr-container">
-        <Banner />
+      <Banner />
+      <div className="arrow">
+      <Link to='/home'><img className='back-arrow' src='https://i.imgur.com/x60pPmo.png' alt='back arrow'/></Link>
+      </div>
         <div className="code">
           <h1>Scan this QR code</h1>
             <Link to={`/success/${events.id}`}>

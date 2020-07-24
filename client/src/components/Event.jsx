@@ -43,7 +43,7 @@ export default class Event extends Component {
               <p>Seat {event.seat}</p>
             </div>
           </div>
-          <div>
+          <div className="playoff-p">
             <p>
               Witness the playoff showdown between the New York Giants and the New
               England Patriots. It’s one of the most highly anticipated games of
