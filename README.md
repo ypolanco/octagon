@@ -7,7 +7,9 @@ Things you may want to cover:
 
 - Technology Used
   -Ruby
-  -Rails
+  -Ruby on Rails
+  -React
+  -Node
   -Javascript
   -CSS
   -HTML
@@ -34,3 +36,11 @@ Things you may want to cover:
   Locally
 
 * ...
+
+ERD: 
+https://app.lucidchart.com/documents/edit/510a674b-cdc2-42e5-a51f-457b30c70d9e/0_0?shared=true
+
+Data Flow:
+https://app.lucidchart.com/documents/edit/510a674b-cdc2-42e5-a51f-457b30c70d9e/l_Xfwl1moQdG
+
+
