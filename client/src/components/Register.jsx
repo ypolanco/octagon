@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import Banner from './banner/Banner';
 
 export default class Register extends Component {
   state = {
@@ -19,6 +20,8 @@ export default class Register extends Component {
     const { username, email, password } = this.state;
     const { handleRegisterSubmit, history } = this.props;
     return (
+      <>
+      <Banner />
       <div className='register-container'>
         <div className="register">
           <form
@@ -83,6 +86,7 @@ export default class Register extends Component {
           </form>
         </div>
       </div>
+      </>
     );
   }
 }

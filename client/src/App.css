@@ -2,6 +2,24 @@
   text-align: center;
 }
 /* ================================================== */
+/* ====================   Banner  ==================== */
+/* ================================================== */
+.info-container {
+  display: flex;
+  max-height: 50px;
+  align-content: center;
+  align-items: center;
+  background-color: #FFF7DB;
+}
+.info-container img {
+  width: 18px;
+  height: 18px;
+  margin: 15px;
+}
+.info-container p {
+  font-size: 14px;
+}
+/* ================================================== */
 /* ====================   Login  ==================== */
 /* ================================================== */
 .login-container {
@@ -117,7 +135,24 @@
 /* ====================  Events  ==================== */
 /* ================================================== */
 
-
+.events-container {
+  border: 2px solid purple;
+  height: 100vh;
+  /* display: flex;
+  justify-content: center;
+  align-content: center; */
+  margin: 0 auto;
+  background-color: rgb(81, 81, 81);
+  color: white;
+}
+.events-container .row {
+  display: flex;
+  justify-content: space-evenly;
+}
+.events-container .row h1 {
+  font-size: 36px;
+  margin: 0;
+}
 
 /* ================================================== */
 /* ==================== Footer ==================== */
