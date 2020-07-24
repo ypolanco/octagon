@@ -2,11 +2,12 @@
 
   .info-container{
     display: flex;
-    text-align: center;
-    align-items: center;
+    /* text-align: center;
+    align-items: center; */
     background-color: #FFF7DB ;
     width: 100%; 
-    height:55px;
+    height:40px;
+    padding: 10px;
   }
 
   a{
@@ -15,7 +16,7 @@
 
   
   .blinking{
-    animation:blinkingText 2.8s infinite;
+    /* animation:blinkingText 2.8s infinite; */
     width: 100%;
   }
   

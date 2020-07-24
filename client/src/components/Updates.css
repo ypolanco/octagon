@@ -1,0 +1,31 @@
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  .updates-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 13px;
+  }
+
+  .input-search {
+    width: 309px;
+    height: 40px;
+    border-radius: 14px;
+    background-color: #ffffff;
+  }
+
+  .header{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+
+  }
+
+  .header h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .header h4{
+    margin-top: 0px;
+  }
+}

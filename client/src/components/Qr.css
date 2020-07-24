@@ -1,8 +1,11 @@
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+
   .qr-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #C4C4C4;
+    height: 812px;
   }
 
   .code{

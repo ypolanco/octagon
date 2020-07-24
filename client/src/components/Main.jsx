@@ -9,6 +9,7 @@ import Success from "./Success.jsx";
 import Login from "./Login.jsx";
 import Register from "./Register.jsx";
 import Footer from "./Footer";
+import Updates from "./Updates.jsx"
 
 export default class Main extends Component {
   state = {
@@ -63,6 +64,9 @@ export default class Main extends Component {
             />
           )}
         />
+
+        <Route exact path="/updates" render={Updates}></Route>
+        <Footer />
       </div>
     );
   }
