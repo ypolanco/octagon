@@ -5,21 +5,32 @@ application up and running.
 
 Things you may want to cover:
 
-- Ruby version
+- Technology Used
+  -Ruby
+  -Rails
+  -Javascript
+  -CSS
+  -HTML
 
 - System dependencies
-
+  Front-End dependencies:
+  -axios
+  -react-router-dom
+  Back-End dependencies:
+  -B Crypt
+  -JWT
 - Configuration
 
-- Database creation
+* Database creation
 
-- Database initialization
+  - create database
+  - migrate database
+  - seed database
 
-- How to run the test suite
+* Database initialization
+  -Database must be created before seeding
 
-- Services (job queues, cache servers, search engines, etc.)
+* Deployment instructions
+  Locally
 
-- Deployment instructions
-  Need to update
-
-- ...
+* ...
