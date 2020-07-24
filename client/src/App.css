@@ -5,8 +5,7 @@
 /* ====================   Login  ==================== */
 /* ================================================== */
 .login-container {
-  height: 100vh;
-  border: 2px solid purple;
+  height: 100vh;  
   display: flex;
   justify-content: center;
   align-content: center;
@@ -42,7 +41,7 @@
   height: 40px;
   border: none;
   border-radius: 15px;
-  background-color: rgb(49, 49, 49);
+  background-color: rgb(55, 76, 148);
   color: white;
   font-size: large;
   font-weight: bold;
@@ -56,14 +55,13 @@
   width: 45%;
 }
 .login .form .button {
-  margin-top: 15vh;
+  margin-top: 20vh;
 }
 /* ================================================== */
 /* ==================== Register ==================== */
 /* ================================================== */
 .register-container {
   height: 100vh;
-  border: 2px solid purple;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -99,7 +97,7 @@
   height: 40px;
   border: none;
   border-radius: 15px;
-  background-color: rgb(49, 49, 49);
+  background-color: rgb(55, 76, 148);
   color: white;
   font-size: large;
   font-weight: bold;
@@ -113,8 +111,14 @@
   width: 45%;
 }
 .register .form .button {
-  margin-top: 15vh;
+  margin-top: 29vh;
 }
+/* ================================================== */
+/* ====================  Events  ==================== */
+/* ================================================== */
+
+
+
 /* ================================================== */
 /* ==================== Footer ==================== */
 /* ================================================== */
