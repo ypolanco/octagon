@@ -6323,3 +6323,11 @@ Completed 200 OK in 230ms (Views: 0.4ms | ActiveRecord: 227.6ms | Allocations: 1
 Completed 200 OK in 256ms (Views: 1.4ms | ActiveRecord: 254.4ms | Allocations: 2102)
 
 
+Started GET "/events/1" for ::1 at 2020-07-24 11:25:22 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (5.7ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:44:in `set_event'
+Completed 200 OK in 20ms (Views: 2.2ms | ActiveRecord: 8.0ms | Allocations: 1067)
+
+
