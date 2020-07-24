@@ -32,17 +32,20 @@ export default class Register extends Component {
                 email: "",
                 password: "",
               });
+
             }}
           >
             <h3 className="header">Register</h3>
             <label htmlFor="username" className="label">
               Username
             </label>
+
             <input
               className="register-input"
               id="username"
               type="text"
               name="username"
+
               value={username}
               onChange={this.handleChange}
             />
@@ -51,6 +54,7 @@ export default class Register extends Component {
             <label htmlFor="email" className="label">
               Email
             </label>
+
             <input
               className="register-input"
               id="email"
@@ -72,7 +76,8 @@ export default class Register extends Component {
               onChange={this.handleChange}
             />
             <br />
-            <button className="button">Create Account</button>
+            <button className="button">Sign Up</button>
+            </div>
           </form>
         </div>
       </>
