@@ -64,6 +64,7 @@ export default class Main extends Component {
             />
           )}
         />
+
         <Route exact path="/updates" render={Updates}></Route>
         <Footer />
       </div>

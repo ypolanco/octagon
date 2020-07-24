@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import Banner from './banner/Banner';
 
 export default class Register extends Component {
   state = {
@@ -20,6 +21,8 @@ export default class Register extends Component {
     const { handleRegisterSubmit, history } = this.props;
     return (
       <>
+      <Banner />
+      <div className='register-container'>
         <div className="register">
           <form
             className="form"
@@ -32,49 +35,57 @@ export default class Register extends Component {
                 email: "",
                 password: "",
               });
-            }}
-          >
-            <h3 className="header">Register</h3>
+            }}>
+            <div className='subform'>
+              {/* <h3 className="header">Register</h3> */}
+            <h1 className='header'>STADIO</h1>
             <label htmlFor="username" className="label">
-              Username
+              {/* Username */}
             </label>
+
             <input
               className="register-input"
               id="username"
               type="text"
               name="username"
+              placeholder='Username'
               value={username}
               onChange={this.handleChange}
             />
 
             <br />
             <label htmlFor="email" className="label">
-              Email
+              {/* Email */}
             </label>
+
             <input
               className="register-input"
               id="email"
               type="text"
               name="email"
+              placeholder='Email'
               value={email}
               onChange={this.handleChange}
             />
             <br />
             <label htmlFor="password" className="label-register">
-              Password
+              {/* Password */}
             </label>
             <input
               className="register-input"
               id="password"
               type="password"
               name="password"
+              placeholder='Password'
               value={password}
               onChange={this.handleChange}
             />
             <br />
-            <button className="button">Create Account</button>
+            <button className="button">Sign Up</button>
+            </div>
           </form>
         </div>
+      </div>
       </>
     );
   }

@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 
 export default function Banner() {
   return (
+
     <Link to="/updates">
       <div className="info-container">
         <img src={info} alt="info button" className="info-button" />
@@ -13,5 +14,6 @@ export default function Banner() {
         </span>
       </div>
     </Link>
+
   );
 }

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link, Route } from "react-router-dom";
+import Banner from "./banner/Banner";
 
 export default class Login extends Component {
   state = {
@@ -22,7 +23,10 @@ export default class Login extends Component {
     const { username, password } = this.state;
     const { handleLoginSubmit, history } = this.props;
     return (
+      <>
+      <Banner />
       <div className="login-container">
+        
         <div className="login">
           <form
             className="form"
@@ -72,6 +76,7 @@ export default class Login extends Component {
           </form>
         </div>
       </div>
+      </>
     );
   }
 }
