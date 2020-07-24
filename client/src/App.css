@@ -1,12 +1,32 @@
 .App {
   text-align: center;
 }
+body {
+  background-color: #A9A9A9;
+}
+/* ================================================== */
+/* ====================   Banner  ==================== */
+/* ================================================== */
+.info-container {
+  display: flex;
+  max-height: 50px;
+  align-content: center;
+  align-items: center;
+  background-color: #FFF7DB;
+}
+.info-container img {
+  width: 18px;
+  height: 18px;
+  margin: 15px;
+}
+.info-container p {
+  font-size: 14px;
+}
 /* ================================================== */
 /* ====================   Login  ==================== */
 /* ================================================== */
 .login-container {
-  height: 100vh;
-  border: 2px solid purple;
+  height: 100vh;  
   display: flex;
   justify-content: center;
   align-content: center;
@@ -42,7 +62,7 @@
   height: 40px;
   border: none;
   border-radius: 15px;
-  background-color: rgb(49, 49, 49);
+  background-color: rgb(55, 76, 148);
   color: white;
   font-size: large;
   font-weight: bold;
@@ -56,7 +76,187 @@
   width: 45%;
 }
 .login .form .button {
-  margin-top: 15vh;
+  margin-top: 20vh;
+}
+/* ================================================== */
+/* ==================== Register ==================== */
+/* ================================================== */
+.register-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 0 auto;
+  background-color: rgb(81, 81, 81);
+  color: white;
+}
+.register {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+}
+.social {
+  display: flex;
+  justify-content: space-evenly;
+}
+.subform {
+  margin-top: 12vh;
+}
+.subform h1 {
+  font-size: 36px;
+}
+.subform input {
+  border-radius: 20px;
+  width: 327px;
+  height: 40px;
+  border: none;
+  margin-top: 10px;
+}
+.subform button {
+  width: 327px;
+  height: 40px;
+  border: none;
+  border-radius: 15px;
+  background-color: rgb(55, 76, 148);
+  color: white;
+  font-size: large;
+  font-weight: bold;
+}
+.subform .row .column {
+  display: flex;
+  justify-content: space-between;
+}
+.subform .row .column input {
+  display: inline-flex;
+  width: 45%;
+}
+.register .form .button {
+  margin-top: 29vh;
+}
+/* ================================================== */
+/* ====================  Events  ==================== */
+/* ================================================== */
+
+.events-container {
+  border: 2px solid purple;
+  height: 100vh;
+  /* display: flex;
+  justify-content: center;
+  align-content: center; */
+  margin: 0 auto;
+  background-color: rgb(81, 81, 81);
+  color: white;
+}
+.events-container .row {
+  display: flex;
+  justify-content: space-around;
+  height: 80px;
+  align-items: center;
+}
+.events-container .row img {
+  height: 48px;
+  width: 48px;
+}
+.events-container .row h1 {
+  font-size: 36px;
+  margin: 0;
+}
+.events-container .my-events-container {
+  height: 50px;
+  background-color: #A9A9A9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.events-container .my-events-container p {
+  font-size: 24px;
+  color: #374B94;
+  font-weight: bold;
+}
+.events-container .act-event {
+  background-color: #767676;
+  background-image: url('https://i.imgur.com/poe0V2A.png');
+  /* width: 375px;
+  height: 240px; */
+  background-repeat: no-repeat;
+  text-decoration: none;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  border: 2px solid red;
+}
+.events-container .act-event .event-name h2 {
+  display: flex;
+  justify-items: center;
+  margin: 0;
+}
+
+.events-container .act-event button {
+  width: 327px;
+  height: 40px;
+  border: none;
+  border-radius: 15px;
+  background-color: rgb(55, 76, 148);
+  color: white;
+  font-size: large;
+  font-weight: bold;  
+  justify-self: center;
+  margin: 10px;
+}
+
+/* ================================================== */
+/* ==================== Single Event ==================== */
+/* ================================================== */
+.single-event-container {
+  color: white;
+  text-align: center;
+}
+.single-event {
+  display: inline-block;
+}
+.back-arrow {
+  margin: 15px 0 0 15px;
+  height: 20px;
+  width: 20px;
+}
+.info-board-1 {
+  background-color: #767676;
+  background-image: url('https://i.imgur.com/poe0V2A.png');
+  background-repeat: no-repeat;
+  text-decoration: none;
+  font-family: sans-serif;
+  display: block;
+  justify-content: center;
+  width: 375px;
+  height: 240px;
+  color: white;
+  text-align: left;
+}
+.info-board-2 {
+  background-color: #32374A;
+  height: 80px;
+  width: 375px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.single-event-container button {
+  width: 327px;
+  height: 40px;
+  border: none;
+  border-radius: 15px;
+  background-color: rgb(55, 76, 148);
+  color: white;
+  font-size: large;
+  font-weight: bold;  
+  justify-self: center;
+  margin: 0 10px;
+}
+.single-event-container p {
+  padding: 0 10px;
+}
+.single-event-container h2 {
+  padding: 0 10px;
 }
 /* ================================================== */
 /* ==================== Footer ==================== */
