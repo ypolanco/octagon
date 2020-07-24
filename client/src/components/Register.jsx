@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
-
 export default class Register extends Component {
   state = {
     username: "",
@@ -20,8 +19,8 @@ export default class Register extends Component {
     const { username, email, password } = this.state;
     const { handleRegisterSubmit, history } = this.props;
     return (
-      <div className='login-container'>
-        <div className="login">
+      <>
+        <div className="register">
           <form
             className="form"
             onSubmit={(e) => {
@@ -33,35 +32,46 @@ export default class Register extends Component {
                 email: "",
                 password: "",
               });
-            }}>
-            <div className='subform'>
-            <h1 className="header">STADIO</h1>    
+
+            }}
+          >
+            <h3 className="header">Register</h3>
+            <label htmlFor="username" className="label">
+              Username
+            </label>
+
             <input
               className="register-input"
               id="username"
               type="text"
               name="username"
-              placeholder='Username'
+
               value={username}
               onChange={this.handleChange}
             />
-            <br/>
+
+            <br />
+            <label htmlFor="email" className="label">
+              Email
+            </label>
+
             <input
               className="register-input"
               id="email"
               type="text"
               name="email"
-              placeholder='Email'
               value={email}
               onChange={this.handleChange}
             />
             <br />
+            <label htmlFor="password" className="label-register">
+              Password
+            </label>
             <input
               className="register-input"
               id="password"
               type="password"
               name="password"
-              placeholder='Password'
               value={password}
               onChange={this.handleChange}
             />
@@ -70,7 +80,7 @@ export default class Register extends Component {
             </div>
           </form>
         </div>
-      </div>
+      </>
     );
   }
 }
