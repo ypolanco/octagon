@@ -4,8 +4,7 @@ import { Link } from "react-router-dom";
 
 export default class Register extends Component {
   state = {
-    firstname: "",
-    lastname: "",
+    username: "",
     email: "",
     password: "",
   };
@@ -18,7 +17,7 @@ export default class Register extends Component {
   };
 
   render() {
-    const { firstname, lastname, email, password } = this.state;
+    const { username, email, password } = this.state;
     const { handleRegisterSubmit, history } = this.props;
     return (
       <div className='login-container'>
@@ -30,35 +29,23 @@ export default class Register extends Component {
               handleRegisterSubmit(this.state);
               history.push("/");
               this.setState({
-                firstname: "",
-                lastname: "",
+                username: "",
                 email: "",
                 password: "",
               });
             }}>
             <div className='subform'>
-            <h1 className="header">STADIO</h1>
-            <div className='row'>
-              <span className='column'>    
-                <input
-                  className="register-input"
-                  id="firstname"
-                  type="text"
-                  name="firstname"
-                  placeholder='First Name'
-                  value={firstname}
-                  onChange={this.handleChange} />
-              
-                <input
-                  className="register-input"
-                  id="lastname"
-                  type="text"
-                  name="lastname"
-                  placeholder='Last Name'
-                  value={lastname}
-                  onChange={this.handleChange} />
-              </span>
-            </div>
+            <h1 className="header">STADIO</h1>    
+            <input
+              className="register-input"
+              id="username"
+              type="text"
+              name="username"
+              placeholder='Username'
+              value={username}
+              onChange={this.handleChange}
+            />
+            <br/>
             <input
               className="register-input"
               id="email"
