@@ -23,7 +23,7 @@ export default class Login extends Component {
     const { handleLoginSubmit, history } = this.props;
     return (
       <div className="login-container">
-        <div className='login'>
+        <div className="login">
           <form
             className="form"
             onSubmit={(e) => {
@@ -35,44 +35,39 @@ export default class Login extends Component {
                 password: "",
               });
             }}>
-            <div className='motha'>
+            <div className="subform">
               <h1 className="header">STADIO</h1>
-              {/* <label htmlFor="username" className="label">
-                Username
-              </label> */}
               <input
                 id="username"
                 type="text"
                 name="username"
-                placeholder='Email'
+                placeholder="Email"
                 value={username}
                 onChange={this.handleChange}
                 className="input"
               />
               <br />
-              {/* <label htmlFor="password" className="label">
-                Password
-              </label> */}
               <input
                 id="password"
                 type="password"
                 name="password"
-                placeholder='Password'
+                placeholder="Password"
                 value={password}
                 onChange={this.handleChange}
                 className="input"
               />
               <br />
               <p>or log in with:</p>
-              <div className='social'>
-                <img src='https://i.imgur.com/22v0su3.png' alt='twitter' />
-                <img src='https://i.imgur.com/T46Okmj.png' alt='google' />
-                <img src='https://i.imgur.com/dYRamty.png' alt='facebook' />            
+              <div className="social">
+                <img src="https://i.imgur.com/22v0su3.png" alt="twitter" />
+                <img src="https://i.imgur.com/T46Okmj.png" alt="google" />
+                <img src="https://i.imgur.com/dYRamty.png" alt="facebook" />
               </div>
-              <br/>
+              <br />
               <button className="button">Log In</button>
-              <p>don't have an account?<Link to="/register">  Sign Up</Link></p>
-              
+              <p>
+                don't have an account?<Link to="/register"> Sign Up</Link>
+              </p>
             </div>
           </form>
         </div>
