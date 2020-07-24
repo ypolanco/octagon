@@ -1,11 +1,9 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
-
 export default class Register extends Component {
   state = {
-    firstname: "",
-    lastname: "",
+    username: "",
     email: "",
     password: "",
   };
@@ -18,11 +16,11 @@ export default class Register extends Component {
   };
 
   render() {
-    const { firstname, lastname, email, password } = this.state;
+    const { username, email, password } = this.state;
     const { handleRegisterSubmit, history } = this.props;
     return (
-      <div className='login-container'>
-        <div className="login">
+      <>
+        <div className="register">
           <form
             className="form"
             onSubmit={(e) => {
@@ -30,49 +28,46 @@ export default class Register extends Component {
               handleRegisterSubmit(this.state);
               history.push("/");
               this.setState({
-                firstname: "",
-                lastname: "",
+                username: "",
                 email: "",
                 password: "",
               });
-            }}>
+            }}
+          >
             <h3 className="header">Register</h3>
-            <div className='row'>
-              <input
-                className="register-input"
-                id="firstname"
-                type="text"
-                name="firstname"
-                placeholder='First Name'
-                value={firstname}
-                onChange={this.handleChange}
-              />
-              <input
-                className="register-input"
-                id="lastname"
-                type="text"
-                name="lastname"
-                placeholder='Last Name'
-                value={lastname}
-                onChange={this.handleChange}
-              />
-            </div>
+            <label htmlFor="username" className="label">
+              Username
+            </label>
+            <input
+              className="register-input"
+              id="username"
+              type="text"
+              name="username"
+              value={username}
+              onChange={this.handleChange}
+            />
+
+            <br />
+            <label htmlFor="email" className="label">
+              Email
+            </label>
             <input
               className="register-input"
               id="email"
               type="text"
               name="email"
-              placeholder='Email'
               value={email}
               onChange={this.handleChange}
             />
             <br />
+            <label htmlFor="password" className="label-register">
+              Password
+            </label>
             <input
               className="register-input"
               id="password"
               type="password"
               name="password"
-              placeholder='Password'
               value={password}
               onChange={this.handleChange}
             />
@@ -80,7 +75,7 @@ export default class Register extends Component {
             <button className="button">Create Account</button>
           </form>
         </div>
-      </div>
+      </>
     );
   }
 }
