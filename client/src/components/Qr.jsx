@@ -8,7 +8,6 @@ export default function Qr(props) {
   const { events } = props;
   console.log(events);
   return (
-    <div>
       <div className="qr-container">
         <Banner />
         <div className="code">
@@ -16,7 +15,6 @@ export default function Qr(props) {
             <Link to={`/success/${events.id}`}>
               <img src={qr} alt="qr code" className="qr-code" />
             </Link>
-        </div>
       </div>
     </div>
   );

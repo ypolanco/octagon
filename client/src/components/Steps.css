@@ -1,32 +1,38 @@
-.steps-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+
+  .steps-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #C4C4C4;
+  }
+  
+  .header {
+    font-size: 13px;
+  }
+  
+  .step-one,
+  .step-two,
+  .step-three,
+  .step-four,
+  .step-five {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .steps-container p{
+    margin: 2px;
+  }
+  
+  
+  .images {
+    height: 150px;
+    margin-bottom: 10px;
+    border-radius: 30%;
+  }
+  
 }
 
-.header {
-  font-size: 13px;
-}
-
-.step-one,
-.step-two,
-.step-three,
-.step-four,
-.step-five {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.steps-container p{
-  margin: 2px;
-}
-
-
-.images {
-  height: 150px;
-  margin-bottom: 10px;
-  border-radius: 30%;
-}
